@@ -1,7 +1,16 @@
 package com.maveric.scuba.utils;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.sl.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.SheetBuilder;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -23,6 +32,13 @@ public class Scubautils {
 	public static WebElement loc;
 	public static WebElement ele;
 	static WebDriverWait wait;
+	public static XSSFWorkbook workbook;
+	public static String ExcelPath = ".\\TestData\\parabank.xlsx";
+	public static String SheetName = "TestData";
+	public static Sheet sheet;
+			
+	
+	
 	public static void driverinit(String browser)
 	{
 		switch (browser) {
@@ -212,4 +228,17 @@ public class Scubautils {
 	{
 		driver.switchTo().alert().accept();
 	}
+	
+	public static String ReadExcel(int row,int col) throws IOException
+	{
+//		String Excel = ".\\TestData\\parabank.xlsx";
+		File file = new File(ExcelPath);
+		FileInputStream inputstream = new FileInputStream(file);
+		workbook = new XSSFWorkbook(inputstream);
+		sheet = workbook.getSheet("SheetName");
+		Row rownum = sheet.getRow(row);
+		String Value = rownum.getCell(col).toString().toLowerCase();
+		System.out.println(Value);
+		return Value;
+	}	
 }

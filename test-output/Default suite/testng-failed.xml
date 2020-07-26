@@ -5,7 +5,7 @@
     <classes>
       <class name="com.maveric.scuba.tests.demoqa.Demoqa">
         <methods>
-          <include name="BookStore"/>
+          <include name="exceldata"/>
         </methods>
       </class> <!-- com.maveric.scuba.tests.demoqa.Demoqa -->
     </classes>
