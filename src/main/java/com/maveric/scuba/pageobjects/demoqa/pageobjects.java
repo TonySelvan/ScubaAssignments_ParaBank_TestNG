@@ -158,4 +158,5 @@ public class pageobjects {
 	    public static By Book_Store = By.xpath("//span[text()='Book Store']");
 	    public static By Book1 = By.xpath("//a[text()='Git Pocket Guide']");
 	    public static    By BacktoBookStore = By.xpath("//button[text()='Back To Book Store']");
+		public static By GitSample = By.xpath("//span[text()='git sample']");
 }
