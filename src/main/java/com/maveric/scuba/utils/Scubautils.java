@@ -229,16 +229,16 @@ public class Scubautils {
 		driver.switchTo().alert().accept();
 	}
 	
-	public static String ReadExcel(int row,int col) throws IOException
-	{
-//		String Excel = ".\\TestData\\parabank.xlsx";
-		File file = new File(ExcelPath);
-		FileInputStream inputstream = new FileInputStream(file);
-		workbook = new XSSFWorkbook(inputstream);
-		sheet = workbook.getSheet("SheetName");
-		Row rownum = sheet.getRow(row);
-		String Value = rownum.getCell(col).toString().toLowerCase();
-		System.out.println(Value);
-		return Value;
-	}	
+//	public static String ReadExcel(int row,int col) throws IOException
+//	{
+////		String Excel = ".\\TestData\\parabank.xlsx";
+//		File file = new File(ExcelPath);
+//		FileInputStream inputstream = new FileInputStream(file);
+//		workbook = new XSSFWorkbook(inputstream);
+//		sheet = workbook.getSheet("SheetName");
+//		Row rownum = sheet.getRow(row);
+//		String Value = rownum.getCell(col).toString().toLowerCase();
+//		System.out.println(Value);
+//		return Value;
+//	}	
 }

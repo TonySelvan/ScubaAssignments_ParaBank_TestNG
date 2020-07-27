@@ -9,14 +9,14 @@ import com.maveric.scuba.utils.*;
 
 public class Demoqa {
 	
-//	@BeforeMethod
+	@BeforeMethod
 	public static void driverinit() 
 	{
 		Scubautils.driverinit("chrome");
 		Scubautils.urllaunch("https://demoqa.com/");
 	}
 	
-//	@AfterMethod
+	@AfterMethod
 	public static void driverclose() 
 	{
 		Scubautils.driverquit();
@@ -76,12 +76,12 @@ public static void BookStore() throws InterruptedException
 }
 
 
-@Test
-public void exceldata() throws IOException
-{
-	Scubautils.ReadExcel(1, 1);
-	Scubautils.ReadExcel(1, 2);
-	Scubautils.ReadExcel(1, 3);
-	Scubautils.ReadExcel(1, 4);	
-}
+//@Test
+//public void exceldata() throws IOException
+//{
+//	Scubautils.ReadExcel(1, 1);
+//	Scubautils.ReadExcel(1, 2);
+//	Scubautils.ReadExcel(1, 3);
+//	Scubautils.ReadExcel(1, 4);	
+//}
 }

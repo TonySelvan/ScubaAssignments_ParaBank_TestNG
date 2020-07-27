@@ -12,6 +12,3 @@ Feature: Demo Feature
     Then I enter username "tomsmith" and password "SuperSecretPassword!"
     And I Assert the Message "You logged into a secure area!"
     Then I logout of the application
-
-
-
