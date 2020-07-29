@@ -1,76 +1,81 @@
 package com.maveric.scuba.utils;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.sl.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.util.SheetBuilder;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
+import com.maveric.core.config.ConfigProperties;
+import com.maveric.core.driver.Driver;
+import com.maveric.core.utils.web.WebActions;
 import com.maveric.scuba.pageobjects.demoqa.pageobjects;
 
-public class Scubautils {
+public class Scubautils extends WebActions {
 	
-	public static WebDriver driver;
-	public static WebElement loc;
-	public static WebElement ele;
-	static WebDriverWait wait;
-	public static XSSFWorkbook workbook;
-	public static String ExcelPath = ".\\TestData\\parabank.xlsx";
-	public static String SheetName = "TestData";
-	public static Sheet sheet;
+	WebDriver driver;
+	public  WebElement loc;
+	public  WebElement ele;
+	WebDriverWait wait;
+	public  XSSFWorkbook workbook;
+	public  String ExcelPath = ".\\TestData\\parabank.xlsx";
+	public  String SheetName = "TestData";
+	public  Sheet sheet;
 			
 	
-	
-	public static void driverinit(String browser)
+	public Scubautils()
 	{
-		switch (browser) {
-		case "chrome":
-			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
-			driver = new ChromeDriver();
-			wait = new WebDriverWait(driver, 60);
-			break;
-		case "ff":
-			System.setProperty("webdriver.firefox.driver", ".\\geckodriver.exe");
-			driver = new FirefoxDriver();
-			break;	
-		default:
-			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
-			driver = new ChromeDriver();
-			break;
-		}
+		driver = Driver.getWebDriver();
+        wait = new WebDriverWait(driver, ConfigProperties.WAIT_TIMEOUT.getInt());
+        System.out.println("This is Constructor");
+	}
+//	
+	public WebDriver driverinit()
+	{
+//		driver = Driver.getWebDriver();
+//		switch (browser) {
+//		case "chrome":
+//			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+//			driver = new ChromeDriver();
+//			wait = new WebDriverWait(driver, 60);
+//			break;
+//		case "ff":
+//			System.setProperty("webdriver.firefox.driver", ".\\geckodriver.exe");
+//			driver = new FirefoxDriver();
+//			break;	
+//		default:
+//			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+//			driver = new ChromeDriver();
+//			break;
+//		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		return driver;
 	}
 
-	public static void driverquit()
+	public  void driverquit()
 	{
 		driver.close();
 		driver.quit();
 	}
-	public static void urllaunch(String url)
+	public WebDriver urllaunch(String url)
 	{
 		driver.get(url);
+		logScreenshot("UrlLaunch");
+		logScreenshot("UrlLaunch2");
+		
+		return driver;
 	}
 	
-	public static void send(By loc, String value )
+	public  void send(By loc, String value )
 	{
 		try
 		{
@@ -87,27 +92,29 @@ public class Scubautils {
 	}
 	
 	
-	public static void Btnclick(By loc)
+	public void Btnclick(By loc)
 	{
 		try
 		{
-			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
+			Thread.sleep(5000);
+//			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
 			WebElement ele = driver.findElement(loc);
 			ele.click();
 		}
 		catch (Exception e) {
 	// TODO: handle exception
-//			JavascriptExecutor js = (JavascriptExecutor)driver;
-//            js.executeScript("arguments[0].click();",ele );
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+            js.executeScript("arguments[0].click();",ele );
 			String exception = e.getMessage();
-			System.out.println(exception);
-			WebElement element = driver.findElement(loc);
-			Actions actions = new Actions(driver);
-			actions.moveToElement(element).click().perform();
+			e.printStackTrace();
+			System.out.println("exception" + exception);
+//			WebElement element = driver.findElement(loc);
+//			Actions actions = new Actions(driver);
+//			actions.moveToElement(element).click().perform();
 		}
 	}
 	
-	public static void linkclick(By loc)
+	public  void linkclick(By loc)
 	{
 		try
 		{
@@ -124,7 +131,7 @@ public class Scubautils {
 		}
 	}
 	
-	public static void dropdownselectval(By loc, String value)
+	public  void dropdownselectval(By loc, String value)
 	{
 		try
 		{
@@ -138,7 +145,7 @@ public class Scubautils {
 		}
 	}
 	
-	public static void dropdownselectind(By loc, int index)
+	public  void dropdownselectind(By loc, int index)
 	{
 		try
 		{
@@ -152,7 +159,7 @@ public class Scubautils {
 		}
 	}
 	
-	public static void dropdownselecttxt(By loc, String value)
+	public  void dropdownselecttxt(By loc, String value)
 	{
 		try
 		{
@@ -166,7 +173,7 @@ public class Scubautils {
 		}
 	}
 	
-	public static void datePicker(By objlocator, int Index, By Date, String Year )
+	public  void datePicker(By objlocator, int Index, By Date, String Year )
 	{
 		driver.findElement(objlocator).click();
 		Select Month_dropdown = new Select(driver.findElement(pageobjects.Month));
@@ -176,7 +183,7 @@ public class Scubautils {
 		driver.findElement(Date).click();
 	}
 	
-	public static void sendDate(By loc, String message)
+	public  void sendDate(By loc, String message)
 	{
 		Actions action = new Actions(driver);
 		WebElement textbox = driver.findElement(loc);
@@ -184,7 +191,7 @@ public class Scubautils {
 		action.moveToElement(textbox).click(textbox).sendKeys(message).build().perform();		
 	}
 	
-	public static void autofill(By loc, String text)
+	public  void autofill(By loc, String text)
 	{
 		WebElement autoOptions= driver.findElement(loc);
 	    autoOptions.sendKeys("En");
@@ -201,7 +208,7 @@ public class Scubautils {
 	}
 } 
 	
-	public static void UploadFile(By loc)
+	public  void UploadFile(By loc)
 	{
 		
 		String path = System.getProperty("user.dir");
@@ -211,25 +218,25 @@ public class Scubautils {
 		//driver.findElement(By.name("send")).click();
 	}
 	
-	public static void pgdwn()
+	public  void pgdwn()
 	{
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		
 	}
 	
-	public static void tabkey()
+	public  void tabkey()
 	{
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
 	}
 	
-	public static void alertok()
+	public  void alertok()
 	{
 		driver.switchTo().alert().accept();
 	}
 	
-//	public static String ReadExcel(int row,int col) throws IOException
+//	public  String ReadExcel(int row,int col) throws IOException
 //	{
 ////		String Excel = ".\\TestData\\parabank.xlsx";
 //		File file = new File(ExcelPath);

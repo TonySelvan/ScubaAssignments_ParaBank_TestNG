@@ -54,10 +54,10 @@ public class DriverListener implements ISuiteListener, ITestListener, IInvokedMe
 
     private void takeFailureScreenshot() {
         if (!Driver.isWebDriverEmpty() || !Driver.isAppiumDriverEmpty()) {
+        	System.out.println("It Fails Here");
             WebActions actions = new WebActions();
-            actions.logScreenshot("Failure Screenshot");
+            
+            actions.logScreenshot("FailureScreenshot");
         }
     }
-
-
 }

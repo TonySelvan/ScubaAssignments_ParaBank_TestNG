@@ -22,5 +22,4 @@ public class BaseTest {
     @BeforeMethod(alwaysRun = true)
     private void beforeMethod() {
     }
-
 }

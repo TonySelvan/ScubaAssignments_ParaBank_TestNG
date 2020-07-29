@@ -11,6 +11,7 @@ public class Driver {
     public static void setWebDriver(WebDriver driver_) {
 
         driver.set(driver_);
+        System.out.println("Driver Set Complete");
     }
 
     public static void setAppiumDriver(AppiumDriver<?> driver_) {
@@ -18,7 +19,8 @@ public class Driver {
     }
 
     public static WebDriver getWebDriver() {
-        return driver.get();
+        System.out.println("Driver is get : " + driver);
+    	return driver.get();
     }
 
     public static AppiumDriver<?> getAppiumDriver() {

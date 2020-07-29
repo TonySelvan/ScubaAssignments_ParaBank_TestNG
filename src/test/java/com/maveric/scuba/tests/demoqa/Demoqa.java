@@ -3,85 +3,95 @@ import java.io.IOException;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.maveric.core.testng.BaseTest;
+import com.maveric.core.utils.web.WebActions;
 import com.maveric.scuba.pageobjects.demoqa.pageobjects;
 import com.maveric.scuba.utils.*;
 
-public class Demoqa {
+public class Demoqa extends BaseTest{
 	
-	@BeforeMethod
-	public static void driverinit() 
-	{
-		Scubautils.driverinit("chrome");
-		Scubautils.urllaunch("https://demoqa.com/");
-	}
-	
-	@AfterMethod
-	public static void driverclose() 
-	{
-		Scubautils.driverquit();
-	}
+	Scubautils Utils = new Scubautils();
+//	WebActions Act = new WebActions();
+//	@BeforeTest
+//	public void driverinit() 
+//	{
+//		System.out.println("In before Test");
+//		Utils.driverinit();
+//		Utils.urllaunch("https://demoqa.com/");
+//	}
+//	
+//	@AfterMethod
+//	public  void driverclose()
+//	{
+//		Utils.driverquit();
+//	}
 	
 	@Test(priority = 1)
-	public static void ProfileForm() throws InterruptedException {
-		Scubautils.Btnclick(pageobjects.form);
-		Scubautils.Btnclick(pageobjects.Practice_Form);
-		Scubautils.send(pageobjects.FirstName, "Thamarai Selvan");
-		Scubautils.send(pageobjects.LastName, "Kandasamy");
-		Scubautils.send(pageobjects.UserEmail, "ktselvan4029@gmail.com");
-		Scubautils.Btnclick(pageobjects.Male_Gender);
-		Scubautils.send(pageobjects.UserNumber, "9962412123");
-		Scubautils.datePicker(pageobjects.DOB, 2, pageobjects.Date, "1990");
-		Scubautils.send(pageobjects.Subject_Search,"English");
-		Scubautils.tabkey();		
-		Scubautils.Btnclick(pageobjects.Music_Hobby);
-		Scubautils.Btnclick(pageobjects.Reading_Hobby);
-		Scubautils.Btnclick(pageobjects.Sports_Hobby);
-		Scubautils.UploadFile(pageobjects.ChooseFile);
-		Scubautils.send(pageobjects.TextBox_CurrentAddress, "ABC");
-		Scubautils.send(pageobjects.Select_State,"NCR");
-		Scubautils.tabkey();
-		Scubautils.send(pageobjects.Select_City,"Delhi");
-		Scubautils.tabkey();
-		Scubautils.pgdwn();
-		Thread.sleep(5000);
-		Scubautils.Btnclick(pageobjects.ProfileForm_Submit);
-		Thread.sleep(5000);
-		Scubautils.Btnclick(pageobjects.ProfileForm_Close);
+	public  void ProfileForm() throws InterruptedException {
+		Utils.driverinit();
+		Utils.urllaunch("https://demoqa.com/");
+		Utils.Btnclick(pageobjects.form);
+//		Act.logScreenshot("PofileForm");
+//		Utils.Btnclick(pageobjects.Practice_Form);
+//		Utils.send(pageobjects.FirstName, "Thamarai Selvan");
+//		Utils.send(pageobjects.LastName, "Kandasamy");
+//		Utils.send(pageobjects.UserEmail, "ktselvan4029@gmail.com");
+//		Utils.Btnclick(pageobjects.Male_Gender);
+//		Utils.send(pageobjects.UserNumber, "9962412123");
+//		Utils.datePicker(pageobjects.DOB, 2, pageobjects.Date, "1990");
+//		Utils.send(pageobjects.Subject_Search,"English");
+//		Utils.tabkey();		
+//		Utils.Btnclick(pageobjects.Music_Hobby);
+//		Utils.Btnclick(pageobjects.Reading_Hobby);
+//		Utils.Btnclick(pageobjects.Sports_Hobby);
+//		Utils.UploadFile(pageobjects.ChooseFile);
+//		Utils.send(pageobjects.TextBox_CurrentAddress, "ABC");
+//		Utils.send(pageobjects.Select_State,"NCR");
+//		Utils.tabkey();
+//		Utils.send(pageobjects.Select_City,"Delhi");
+//		Utils.tabkey();
+//		Utils.pgdwn();
+//		Thread.sleep(5000);
+//		Utils.Btnclick(pageobjects.ProfileForm_Submit);
+//		Thread.sleep(5000);
+//		Utils.Btnclick(pageobjects.ProfileForm_Close);
 	}
 	
-@Test(priority = 2)
-public static void BookStore() throws InterruptedException
+//@Test(priority = 2)
+public  void BookStore() throws InterruptedException
 {
-		Scubautils.pgdwn();
-		Scubautils.Btnclick(pageobjects.BookStoreApplications);
-		Scubautils.Btnclick(pageobjects.Login_Form);
-		Scubautils.Btnclick(pageobjects.Login_Button);
-		Scubautils.send(pageobjects.UserName, "ThamaraiSelvan");
-		Scubautils.send(pageobjects.Password, "Maveric@123");
-		Scubautils.Btnclick(pageobjects.Login_Submit);
+		Utils.pgdwn();
+		Utils.Btnclick(pageobjects.BookStoreApplications);
+		Utils.Btnclick(pageobjects.Login_Form);
+		Utils.Btnclick(pageobjects.Login_Button);
+		Utils.send(pageobjects.UserName, "ThamaraiSelvan");
+		Utils.send(pageobjects.Password, "Maveric@123");
+		Utils.Btnclick(pageobjects.Login_Submit);
 		Thread.sleep(5000);
-		Scubautils.Btnclick(pageobjects.Goto_BookStore);
-		Scubautils.Btnclick(pageobjects.BookName);
-		Scubautils.Btnclick(pageobjects.AddCollection);
+		Utils.Btnclick(pageobjects.Goto_BookStore);
+		Utils.Btnclick(pageobjects.BookName);
+		Utils.Btnclick(pageobjects.AddCollection);
 		Thread.sleep(5000);
-		Scubautils.alertok();
-		Scubautils.Btnclick(pageobjects.Login_Form);
-		Scubautils.Btnclick(pageobjects.Profile);
-		Scubautils.Btnclick(pageobjects.Delete_Allbooks);
-		Scubautils.Btnclick(pageobjects.Delete_Confirm);
+		Utils.alertok();
+		Utils.Btnclick(pageobjects.Login_Form);
+		Utils.Btnclick(pageobjects.Profile);
+		Utils.Btnclick(pageobjects.Delete_Allbooks);
+		Utils.Btnclick(pageobjects.Delete_Confirm);
 		Thread.sleep(2000);
-		Scubautils.alertok();
-		Scubautils.Btnclick(pageobjects.Logout);
+		Utils.alertok();
+		Utils.Btnclick(pageobjects.Logout);
 }
 
 
 //@Test
 //public void exceldata() throws IOException
 //{
-//	Scubautils.ReadExcel(1, 1);
-//	Scubautils.ReadExcel(1, 2);
-//	Scubautils.ReadExcel(1, 3);
-//	Scubautils.ReadExcel(1, 4);	
+//	Utils.ReadExcel(1, 1);
+//	Utils.ReadExcel(1, 2);
+//	Utils.ReadExcel(1, 3);
+//	Utils.ReadExcel(1, 4);	
 //}
 }
