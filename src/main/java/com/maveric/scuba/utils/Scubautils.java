@@ -1,4 +1,5 @@
 package com.maveric.scuba.utils;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -14,14 +15,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import com.maveric.core.config.ConfigProperties;
 import com.maveric.core.driver.Driver;
+import com.maveric.core.testng.BaseTest;
 import com.maveric.core.utils.web.WebActions;
 import com.maveric.scuba.pageobjects.demoqa.pageobjects;
 
-public class Scubautils extends WebActions {
+public class Scubautils extends WebActions{
 	
-	WebDriver driver;
 	public  WebElement loc;
 	public  WebElement ele;
 	WebDriverWait wait;
@@ -29,36 +31,18 @@ public class Scubautils extends WebActions {
 	public  String ExcelPath = ".\\TestData\\parabank.xlsx";
 	public  String SheetName = "TestData";
 	public  Sheet sheet;
-			
-	
-	public Scubautils()
+
+	public void driverinitialize()
 	{
 		driver = Driver.getWebDriver();
-        wait = new WebDriverWait(driver, ConfigProperties.WAIT_TIMEOUT.getInt());
-        System.out.println("This is Constructor");
-	}
-//	
-	public WebDriver driverinit()
-	{
-//		driver = Driver.getWebDriver();
-//		switch (browser) {
-//		case "chrome":
-//			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
-//			driver = new ChromeDriver();
-//			wait = new WebDriverWait(driver, 60);
-//			break;
-//		case "ff":
-//			System.setProperty("webdriver.firefox.driver", ".\\geckodriver.exe");
-//			driver = new FirefoxDriver();
-//			break;	
-//		default:
-//			System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
-//			driver = new ChromeDriver();
-//			break;
-//		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		return driver;
+	}
+	
+	public void urllaunch(String url)
+	{
+		driver.navigate().to(url);
+		logScreenshot("UrlLaunch");
 	}
 
 	public  void driverquit()
@@ -66,14 +50,7 @@ public class Scubautils extends WebActions {
 		driver.close();
 		driver.quit();
 	}
-	public WebDriver urllaunch(String url)
-	{
-		driver.get(url);
-		logScreenshot("UrlLaunch");
-		logScreenshot("UrlLaunch2");
-		
-		return driver;
-	}
+	
 	
 	public  void send(By loc, String value )
 	{
@@ -89,9 +66,9 @@ public class Scubautils extends WebActions {
 			String exception = e.getMessage();
 			System.out.println(exception);
 		}
+//		logScreenshot("Value " + value + "is set in " + loc );
 	}
-	
-	
+
 	public void Btnclick(By loc)
 	{
 		try
@@ -103,15 +80,29 @@ public class Scubautils extends WebActions {
 		}
 		catch (Exception e) {
 	// TODO: handle exception
-			JavascriptExecutor js = (JavascriptExecutor)driver;
-            js.executeScript("arguments[0].click();",ele );
+//			JavascriptExecutor js = (JavascriptExecutor)driver;
+//            js.executeScript("arguments[0].click();",ele );
 			String exception = e.getMessage();
 			e.printStackTrace();
 			System.out.println("exception" + exception);
-//			WebElement element = driver.findElement(loc);
-//			Actions actions = new Actions(driver);
-//			actions.moveToElement(element).click().perform();
+			WebElement element = driver.findElement(loc);
+			Actions actions = new Actions(driver);
+			actions.moveToElement(element).click().perform();
 		}
+	}
+	
+	public void DblClick(By loc)
+	{
+		WebElement element = driver.findElement(loc);
+		Actions actions = new Actions(driver);
+		actions.doubleClick(element).perform();
+	}
+	
+	public void RightClick(By loc)
+	{
+		WebElement element = driver.findElement(loc);
+		Actions actions = new Actions(driver);
+		actions.contextClick(element).perform();
 	}
 	
 	public  void linkclick(By loc)
@@ -206,7 +197,7 @@ public class Scubautils extends WebActions {
 	            break;
 	        }
 	}
-} 
+}
 	
 	public  void UploadFile(By loc)
 	{
@@ -236,6 +227,13 @@ public class Scubautils extends WebActions {
 		driver.switchTo().alert().accept();
 	}
 	
+	public void newtab()
+	{
+		 ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		 driver.switchTo().window(tabs.get(1));
+		 driver.close();
+		 driver.switchTo().window(tabs.get(0));
+	}
 //	public  String ReadExcel(int row,int col) throws IOException
 //	{
 ////		String Excel = ".\\TestData\\parabank.xlsx";
@@ -248,4 +246,119 @@ public class Scubautils extends WebActions {
 //		System.out.println(Value);
 //		return Value;
 //	}	
+	
+	
+	public void profileformfilling() throws InterruptedException
+	{
+		logScreenshot("Practice Form is Launched");
+		send(pageobjects.FirstName, "Thamarai Selvan");
+		send(pageobjects.LastName, "Kandasamy");
+		send(pageobjects.UserEmail, "ktselvan4029@gmail.com");
+		Btnclick(pageobjects.Male_Gender);
+		send(pageobjects.UserNumber, "9962412123");
+		datePicker(pageobjects.DOB, 2, pageobjects.Date, "1990");
+		send(pageobjects.Subject_Search,"English");
+		tabkey();
+		Btnclick(pageobjects.Music_Hobby);
+		Btnclick(pageobjects.Reading_Hobby);
+		Btnclick(pageobjects.Sports_Hobby);
+		UploadFile(pageobjects.ChooseFile);
+		send(pageobjects.TextBox_CurrentAddress, "ABC");
+		send(pageobjects.Select_State,"NCR");
+		tabkey();
+		send(pageobjects.Select_City,"Delhi");
+		tabkey();
+		pgdwn();
+		Thread.sleep(5000);
+		logScreenshot("All the values are Set");
+		Btnclick(pageobjects.ProfileForm_Submit);
+		Thread.sleep(5000);
+		logScreenshot("Form is Created Successfully");
+		Btnclick(pageobjects.ProfileForm_Close);
+	}
+	
+	public void BookStoreApp() throws InterruptedException
+	{
+		logScreenshot("DemoQA Login Page is launched");
+		send(pageobjects.UserName, "ThamaraiSelvan");
+		send(pageobjects.Password, "Maveric@123");
+		Btnclick(pageobjects.Login_Submit);
+		Thread.sleep(5000);
+		Btnclick(pageobjects.Goto_BookStore);
+		logScreenshot("BookStore is Launched");
+		Btnclick(pageobjects.BookName);
+		Btnclick(pageobjects.AddCollection);
+		Thread.sleep(5000);
+		alertok();
+		logScreenshot("Book is Added to the Collection");
+		Btnclick(pageobjects.Login_Form);
+		Btnclick(pageobjects.Profile);
+		Btnclick(pageobjects.Delete_Allbooks);
+		Btnclick(pageobjects.Delete_Confirm);
+		Thread.sleep(2000);
+		alertok();
+		logScreenshot("All Books are deleted");
+		Btnclick(pageobjects.Logout);		
+	}
+	
+////////////////////////////Element Level Functions///////////////////////	
+	public void textbox()
+	{
+		driver.navigate().to("https://demoqa.com/text-box");
+		send(pageobjects.TextBox_Fullname, "Thamarai Selvan");
+		send(pageobjects.UserEmail, "ktselvan4029@gmail.com");
+		send(pageobjects.TextBox_CurrentAddress, "ABC");
+		send(pageobjects.TextBox_PermanentAddress, "ABC");
+		Btnclick(pageobjects.ProfileForm_Submit);
+		logScreenshot("TextBox Element is Completed");
+	}
+	
+	public void checkbox() 
+	{
+		driver.navigate().to("https://demoqa.com/checkbox");
+		Btnclick(pageobjects.CheckBox_Home);
+		Btnclick(pageobjects.CheckBox_Expand);
+		logScreenshot("CheckBox Element is Completed");
+	}
+	
+	public void radiobutton()
+	{
+		driver.navigate().to("https://demoqa.com/radio-button");
+		Btnclick(pageobjects.RadioButton_YesOption);
+		Btnclick(pageobjects.RadioButton_ImpressOption);
+		logScreenshot("Radio Button Element is Completed");
+	}
+	
+	public void buttons()
+	{
+		driver.navigate().to("https://demoqa.com/buttons");
+		DblClick(pageobjects.Button_DoubleClick);
+		RightClick(pageobjects.Button_RightClick);
+		Btnclick(pageobjects.clickMe);
+		logScreenshot("Buttons Element is Completed");
+	}
+	
+	public void windows()
+	{
+		driver.navigate().to("https://demoqa.com/browser-windows");
+		Btnclick(pageobjects.Browser_Windows);
+		newtab();
+		logScreenshot("Windows Element is Completed");
+	}
+	
+	public void alerts()
+	{
+		driver.navigate().to("https://demoqa.com/alerts");
+		Btnclick(pageobjects.AlertButton);
+		alertok();	
+		logScreenshot("Alert Element is Completed");
+	}
+	
+	public void modal()
+	{
+		driver.navigate().to("https://demoqa.com/modal-dialogs");
+		Btnclick(pageobjects.SmallModal_Button);
+		Btnclick(pageobjects.close_small_modal);
+		logScreenshot("Modal Element is Completed");
+	}
 }

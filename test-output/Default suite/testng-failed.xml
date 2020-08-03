@@ -3,11 +3,11 @@
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="methods">
   <test thread-count="1" name="Default test(failed)" parallel="methods">
     <classes>
-      <class name="com.internetapp.tests.DemoQA">
+      <class name="com.maveric.scuba.tests.demoqa.Demoqa">
         <methods>
-          <include name="demo"/>
+          <include name="AllElements"/>
         </methods>
-      </class> <!-- com.internetapp.tests.DemoQA -->
+      </class> <!-- com.maveric.scuba.tests.demoqa.Demoqa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

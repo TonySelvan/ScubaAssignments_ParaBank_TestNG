@@ -70,6 +70,7 @@ public class pageobjects {
 	    public static By Modal_DialogsOption = By.xpath("//span[text()='Modal Dialogs']");
 	        public static By SmallModal_Button = By.xpath("//Button[@id='showSmallModal']");
 	        public static By LargeModal_Button = By.xpath("//Button[@id='showLargeModal']");
+	        public static By close_small_modal = By.id("closeSmallModal");
 
 	 
 

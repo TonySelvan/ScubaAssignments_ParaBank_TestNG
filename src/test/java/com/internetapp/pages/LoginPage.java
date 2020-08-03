@@ -20,7 +20,6 @@ public class LoginPage extends WebActions {
     private final By btn_logout = By.cssSelector("i.icon-signout");
     WebDriverWait wait;
     WebDriver driver;
-
     public LoginPage() {
         driver = Driver.getWebDriver();
         wait = new WebDriverWait(driver, ConfigProperties.WAIT_TIMEOUT.getInt());

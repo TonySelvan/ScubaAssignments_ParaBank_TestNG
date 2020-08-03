@@ -48,7 +48,6 @@ public class WebActions {
         } catch (Exception e) {
             logger.error("unable to capture screenshot" + e);
         }
-        System.out.println("screenshotName" + screenshotName);
         return screenshotName;
     }
 
