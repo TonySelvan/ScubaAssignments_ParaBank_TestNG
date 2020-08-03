@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "03-Aug-2020 01:48:36 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eBrowser Launch  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 2512000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Parabank Application",
+            "match": {
+              "location": "com.maveric.scuba.tests.parabank.ParaBank.launch()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-03T08:18:34.166Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Register The User",
+        "description": "",
+        "id": "parabank-assignment;register-the-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "03-Aug-2020 01:48:41 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eUrlLaunch  \u003c/a\u003e",
+              "03-Aug-2020 01:48:41 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eUrl Launch  \u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 4905000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Launch the URL",
+            "match": {
+              "location": "com.maveric.scuba.tests.parabank.ParaBank.lunch_url()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parabank"
+          }
+        ]
+      }
+    ],
+    "name": "Parabank Assignment",
+    "description": "",
+    "id": "parabank-assignment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ParaBank.feature",
+    "tags": [
+      {
+        "name": "@parabank",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

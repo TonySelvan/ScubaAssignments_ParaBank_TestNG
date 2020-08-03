@@ -1,127 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[30-Jul-2020 08:19:52 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+      <![CDATA[03-Aug-2020 01:58:29 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
     </line>
     <line>
-      <![CDATA[30-Jul-2020 08:19:59 PM : <a target=_blank href=screenshots/screenshot_2.png>TextBox Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:10 PM : <a target=_blank href=screenshots/screenshot_3.png>CheckBox Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:22 PM : <a target=_blank href=screenshots/screenshot_4.png>Radio Button Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:28 PM : <a target=_blank href=screenshots/screenshot_5.png>Buttons Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:36 PM : <a target=_blank href=screenshots/screenshot_6.png>Windows Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:42 PM : <a target=_blank href=screenshots/screenshot_7.png>Alert Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:20:54 PM : <a target=_blank href=screenshots/screenshot_8.png>Modal Element is Completed  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:21:09 PM : <a target=_blank href=screenshots/screenshot_9.png>UrlLaunch  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:21:10 PM : <a target=_blank href=screenshots/screenshot_10.png>Practice Form is Launched  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:21:37 PM : <a target=_blank href=screenshots/screenshot_11.png>All the values are Set  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:21:48 PM : <a target=_blank href=screenshots/screenshot_12.png>Form is Created Successfully  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:22:08 PM : <a target=_blank href=screenshots/screenshot_13.png>UrlLaunch  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:22:08 PM : <a target=_blank href=screenshots/screenshot_14.png>DemoQA Login Page is launched  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:22:24 PM : <a target=_blank href=screenshots/screenshot_15.png>BookStore is Launched  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:22:41 PM : <a target=_blank href=screenshots/screenshot_16.png>Book is Added to the Collection  </a>]]>
-    </line>
-    <line>
-      <![CDATA[30-Jul-2020 08:23:04 PM : <a target=_blank href=screenshots/screenshot_17.png>All Books are deleted  </a>]]>
+      <![CDATA[03-Aug-2020 01:58:29 PM : <a target=_blank href=screenshots/screenshot_2.png>Sheet  </a>]]>
     </line>
   </reporter-output>
-  <suite name="DemoQA" duration-ms="225792" started-at="2020-07-30T20:19:25 GMT+05:30" finished-at="2020-07-30T20:23:11 GMT+05:30">
+  <suite name="Default suite" duration-ms="14021" started-at="2020-08-03T13:58:17 GMT+05:30" finished-at="2020-08-03T13:58:31 GMT+05:30">
     <groups>
     </groups>
-    <test name="DemoQA Assignment" duration-ms="225792" started-at="2020-07-30T20:19:25 GMT+05:30" finished-at="2020-07-30T20:23:11 GMT+05:30">
+    <test name="Default test" duration-ms="14021" started-at="2020-08-03T13:58:17 GMT+05:30" finished-at="2020-08-03T13:58:31 GMT+05:30">
       <class name="com.maveric.scuba.tests.demoqa.Demoqa">
-        <test-method status="PASS" signature="AllElements()[pri:0, instance:com.maveric.scuba.tests.demoqa.Demoqa@3738449f]" name="AllElements" duration-ms="88461" started-at="2020-07-30T20:19:25 GMT+05:30" finished-at="2020-07-30T20:20:54 GMT+05:30">
+        <test-method status="PASS" signature="AllElements()[pri:0, instance:com.maveric.scuba.tests.demoqa.Demoqa@e7edb54]" name="AllElements" duration-ms="12781" started-at="2020-08-03T13:58:17 GMT+05:30" finished-at="2020-08-03T13:58:29 GMT+05:30">
           <reporter-output>
             <line>
-              <![CDATA[30-Jul-2020 08:19:52 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+              <![CDATA[03-Aug-2020 01:58:29 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
             </line>
             <line>
-              <![CDATA[30-Jul-2020 08:19:59 PM : <a target=_blank href=screenshots/screenshot_2.png>TextBox Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:10 PM : <a target=_blank href=screenshots/screenshot_3.png>CheckBox Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:22 PM : <a target=_blank href=screenshots/screenshot_4.png>Radio Button Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:28 PM : <a target=_blank href=screenshots/screenshot_5.png>Buttons Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:36 PM : <a target=_blank href=screenshots/screenshot_6.png>Windows Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:42 PM : <a target=_blank href=screenshots/screenshot_7.png>Alert Element is Completed  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:20:54 PM : <a target=_blank href=screenshots/screenshot_8.png>Modal Element is Completed  </a>]]>
+              <![CDATA[03-Aug-2020 01:58:29 PM : <a target=_blank href=screenshots/screenshot_2.png>Sheet  </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AllElements -->
-        <test-method status="PASS" signature="ProfileForm()[pri:1, instance:com.maveric.scuba.tests.demoqa.Demoqa@3738449f]" name="ProfileForm" duration-ms="57758" started-at="2020-07-30T20:20:55 GMT+05:30" finished-at="2020-07-30T20:21:53 GMT+05:30">
-          <reporter-output>
-            <line>
-              <![CDATA[30-Jul-2020 08:21:09 PM : <a target=_blank href=screenshots/screenshot_9.png>UrlLaunch  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:21:10 PM : <a target=_blank href=screenshots/screenshot_10.png>Practice Form is Launched  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:21:37 PM : <a target=_blank href=screenshots/screenshot_11.png>All the values are Set  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:21:48 PM : <a target=_blank href=screenshots/screenshot_12.png>Form is Created Successfully  </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ProfileForm -->
-        <test-method status="PASS" signature="BookStore()[pri:2, instance:com.maveric.scuba.tests.demoqa.Demoqa@3738449f]" name="BookStore" duration-ms="74997" started-at="2020-07-30T20:21:54 GMT+05:30" finished-at="2020-07-30T20:23:09 GMT+05:30">
-          <reporter-output>
-            <line>
-              <![CDATA[30-Jul-2020 08:22:08 PM : <a target=_blank href=screenshots/screenshot_13.png>UrlLaunch  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:22:08 PM : <a target=_blank href=screenshots/screenshot_14.png>DemoQA Login Page is launched  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:22:24 PM : <a target=_blank href=screenshots/screenshot_15.png>BookStore is Launched  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:22:41 PM : <a target=_blank href=screenshots/screenshot_16.png>Book is Added to the Collection  </a>]]>
-            </line>
-            <line>
-              <![CDATA[30-Jul-2020 08:23:04 PM : <a target=_blank href=screenshots/screenshot_17.png>All Books are deleted  </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BookStore -->
       </class> <!-- com.maveric.scuba.tests.demoqa.Demoqa -->
-    </test> <!-- DemoQA Assignment -->
-  </suite> <!-- DemoQA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

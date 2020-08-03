@@ -15,6 +15,7 @@ import com.maveric.scuba.utils.*;
 public class Demoqa extends BaseTest{
 	 
 	Scubautils Utils = new Scubautils();
+	ScubaMethods Method = new ScubaMethods();
 //	ScubaMethods met = new ScubaMethods();
 //	WebActions Act = new WebActions();
 //	@BeforeTest
@@ -49,15 +50,16 @@ public  void BookStore() throws InterruptedException
 @Test
 public void AllElements()
 {
-	Utils.driverinitialize();
-	Utils.urllaunch("https://demoqa.com/login");
-	Utils.textbox();
-	Utils.checkbox();
-	Utils.radiobutton();
-	Utils.buttons();
-	Utils.windows();
-	Utils.alerts();
-	Utils.modal();
+	Method.login();
+//	Utils.driverinitialize();
+//	Utils.urllaunch("https://demoqa.com/login");
+//	Utils.textbox();
+//	Utils.checkbox();
+//	Utils.radiobutton();
+//	Utils.buttons();
+//	Utils.windows();
+//	Utils.alerts();
+//	Utils.modal();
 }
 
 
