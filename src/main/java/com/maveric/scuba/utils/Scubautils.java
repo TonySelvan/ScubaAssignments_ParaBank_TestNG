@@ -1,6 +1,7 @@
 package com.maveric.scuba.utils;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.sl.usermodel.Sheet;
@@ -233,6 +234,44 @@ public class Scubautils extends WebActions{
 		 driver.switchTo().window(tabs.get(1));
 		 driver.close();
 		 driver.switchTo().window(tabs.get(0));
+	}
+	
+	public Integer randomNumber(int maxRange) 
+	{	
+		Random r = new Random();
+		return r.nextInt(maxRange);	
+	}
+	
+	public boolean waitVisible(By by) {
+		try {
+			WebDriver driver = Driver.getWebDriver();
+			WebDriverWait wait = new WebDriverWait(driver,16);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//			scrollIntoView(by);
+			return true;
+		}catch(Exception e) {
+//			Repot
+			e.printStackTrace();
+			return false;
+		}		
+	}
+	
+	public String getText(By loc) 
+	{
+		WebDriver driver = Driver.getWebDriver();
+		WebElement elem = driver.findElement(loc);
+		return elem.getText();	
+	}
+	
+	public List<WebElement> findElements(By by) {
+		try {
+			waitVisible(by);
+			WebDriver driver = Driver.getWebDriver();
+			return driver.findElements(by);
+		}catch (Exception e) {
+			System.out.println(e.getMessage());
+			return null;
+		}
 	}
 //	public  String ReadExcel(int row,int col) throws IOException
 //	{

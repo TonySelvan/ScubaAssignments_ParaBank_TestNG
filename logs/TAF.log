@@ -786,3 +786,27 @@
 2020-08-03 13:58:15.957 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-03_Aug_2020_01_58_15_PM
 2020-08-03 13:58:22.818 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
 2020-08-03 13:58:31.087 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-03 17:44:55.048 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-03 17:44:55.051 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-03 17:44:55.052 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-03 17:44:55.104 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-03_Aug_2020_05_44_55_PM
+2020-08-03 17:44:55.401 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User
+2020-08-03 17:45:01.582 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-03 17:45:19.445 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-03 17:45:19.451 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User
+2020-08-04 09:55:32.205 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 09:55:32.225 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 09:55:32.225 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 09:55:32.248 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_09_55_32_AM
+2020-08-04 09:55:32.643 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User
+2020-08-04 09:55:44.806 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 09:56:19.028 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 09:56:19.033 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User
+2020-08-04 12:35:24.800 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 12:35:24.804 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 12:35:24.804 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 12:35:24.856 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_12_35_24_PM
+2020-08-04 12:35:25.189 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-04 12:35:31.518 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 12:39:04.144 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 12:39:04.146 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
