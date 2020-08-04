@@ -36,6 +36,7 @@ public class ParaBank{
 	@Given("^Register The User$")
 	public void User_Registration()
 	{
+		WebDriver driver = Driver.getWebDriver();
 		UserName = Prop.readProp("userName") + Utils.randomNumber(1200);
 		Utils.Btnclick(page.RegisterLink);
 		Act.logScreenshot("Parabank Site loaded : Login screen");

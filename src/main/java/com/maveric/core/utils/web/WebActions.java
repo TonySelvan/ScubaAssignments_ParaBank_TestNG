@@ -19,11 +19,8 @@ public class WebActions {
     public WebDriver driver;
 
     public void logScreenshot(String name) {
-    
+    	driver = Driver.getWebDriver();
         String path = captureScreenshot();
-//        System.out.println("Name &&& : "+name);
-//        path = "screenshot_1.png";
-//        System.out.println("returned path&&& : "+path);
         String html = "<a target=_blank href=" + "screenshots" + path.replaceAll(" ", "%20") + ">" + name + "  </a>";
         Report.log(html);
     }

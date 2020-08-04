@@ -21,8 +21,6 @@ public class Demoqa extends BaseTest{
 //	@BeforeTest
 //	public void driverinit() 
 //	{
-//		System.out.println("In before Test");
-//		Utils.driverinit();
 //		Utils.urllaunch("https://demoqa.com/");
 //	}
 //	

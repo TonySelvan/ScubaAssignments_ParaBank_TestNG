@@ -26,9 +26,9 @@
         <rest.assured.version>4.3.0</rest.assured.version>
         <!-- surefire properties-->
         <suite>
-            testng.xml
+            cucumber_web.xml
         </suite>
-        <suiteFile>./src/test/java/com/maveric/scuba/tests/demoqa/Demoqa/${suite}</suiteFile>
+        <suiteFile>./src/test/resources/test_suites/${suite}</suiteFile>
     </properties>
     <dependencies>
         <dependency>

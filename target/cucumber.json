@@ -11,10 +11,10 @@
         "steps": [
           {
             "output": [
-              "04-Aug-2020 12:35:38 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eUrlLaunch  \u003c/a\u003e"
+              "04-Aug-2020 05:57:22 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eUrlLaunch  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 6743000000,
+              "duration": 70101000000,
               "status": "passed"
             },
             "line": 5,
@@ -27,11 +27,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-04T07:05:31.762Z",
+        "start_timestamp": "2020-08-04T12:26:12.302Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "match": {
@@ -46,7 +46,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -59,13 +59,13 @@
         "steps": [
           {
             "output": [
-              "04-Aug-2020 12:35:44 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eParabank Site loaded : Login screen  \u003c/a\u003e",
-              "04-Aug-2020 12:35:46 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eParabank Site : New User Registration Values are Entered  \u003c/a\u003e",
-              "04-Aug-2020 12:35:52 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_4.png\u003eParabank Site logged in : New user registered with ID thamarai906; Password: thamarai  \u003c/a\u003e",
-              "04-Aug-2020 12:35:59 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_5.png\u003eParabank Site logged out after creating registering a new user  \u003c/a\u003e"
+              "04-Aug-2020 05:57:30 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eParabank Site loaded : Login screen  \u003c/a\u003e",
+              "04-Aug-2020 05:57:32 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eParabank Site : New User Registration Values are Entered  \u003c/a\u003e",
+              "04-Aug-2020 05:57:39 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_4.png\u003eParabank Site logged in : New user registered with ID thamarai149; Password: thamarai  \u003c/a\u003e",
+              "04-Aug-2020 05:57:47 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_5.png\u003eParabank Site logged out after creating registering a new user  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 21252000000,
+              "duration": 24613000000,
               "status": "passed"
             },
             "line": 9,
@@ -77,12 +77,12 @@
           },
           {
             "output": [
-              "04-Aug-2020 12:36:00 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_6.png\u003eCredentials entered  \u003c/a\u003e",
-              "04-Aug-2020 12:36:06 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_7.png\u003eParabank Site logged in successfully  \u003c/a\u003e",
-              "04-Aug-2020 12:36:13 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_8.png\u003eDefault account : 61074  \u003c/a\u003e"
+              "04-Aug-2020 05:57:47 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_6.png\u003eCredentials entered  \u003c/a\u003e",
+              "04-Aug-2020 05:57:56 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_7.png\u003eParabank Site logged in successfully  \u003c/a\u003e",
+              "04-Aug-2020 05:58:03 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_8.png\u003eDefault account : 93153  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 13642000000,
+              "duration": 16340000000,
               "status": "passed"
             },
             "line": 10,
@@ -94,12 +94,12 @@
           },
           {
             "output": [
-              "04-Aug-2020 12:37:19 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_9.png\u003edate entred for create account  \u003c/a\u003e",
-              "04-Aug-2020 12:37:26 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_10.png\u003eAccount created - \u002761518\u0027  \u003c/a\u003e",
-              "04-Aug-2020 12:37:32 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_11.png\u003eActive accounts  \u003c/a\u003e"
+              "04-Aug-2020 05:58:09 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_9.png\u003edate entred for create account  \u003c/a\u003e",
+              "04-Aug-2020 05:58:16 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_10.png\u003eAccount created - \u002793375\u0027  \u003c/a\u003e",
+              "04-Aug-2020 05:58:22 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_11.png\u003eActive accounts  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 79152000000,
+              "duration": 19541000000,
               "status": "passed"
             },
             "line": 11,
@@ -111,11 +111,11 @@
           },
           {
             "output": [
-              "04-Aug-2020 12:38:42 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_12.png\u003eselected transaction accounts  \u003c/a\u003e",
-              "04-Aug-2020 12:38:48 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_13.png\u003eTransaction completed successfully  \u003c/a\u003e"
+              "04-Aug-2020 05:59:32 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_12.png\u003eselected transaction accounts  \u003c/a\u003e",
+              "04-Aug-2020 05:59:40 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_13.png\u003eTransaction completed successfully  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 76170000000,
+              "duration": 77855000000,
               "status": "passed"
             },
             "line": 12,
@@ -127,10 +127,10 @@
           },
           {
             "output": [
-              "04-Aug-2020 12:39:02 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_14.png\u003eParabank Site logged out  \u003c/a\u003e"
+              "04-Aug-2020 05:59:53 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_14.png\u003eParabank Site logged out  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 13693000000,
+              "duration": 12993000000,
               "status": "passed"
             },
             "line": 13,

@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.lang.RandomStringUtils;
 import org.apache.poi.sl.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
@@ -272,6 +273,19 @@ public class Scubautils extends WebActions{
 			System.out.println(e.getMessage());
 			return null;
 		}
+	}
+
+	public Integer randomNumberinRange(int minRange, int maxRange) {
+		
+		Random r = new Random();
+		return r.nextInt(maxRange - minRange) + minRange ;
+		
+	}
+
+	public String randomText(int maxRange) {
+		
+		return RandomStringUtils.randomAlphabetic(1).toUpperCase()+RandomStringUtils.randomAlphanumeric(maxRange-1);
+		
 	}
 //	public  String ReadExcel(int row,int col) throws IOException
 //	{

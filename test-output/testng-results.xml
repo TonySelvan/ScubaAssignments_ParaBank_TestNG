@@ -1,64 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[05-Aug-2020 12:05:09 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+    </line>
+    <line>
+      <![CDATA[05-Aug-2020 12:05:15 AM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
+    </line>
+    <line>
+      <![CDATA[05-Aug-2020 12:05:17 AM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
+    </line>
+    <line>
+      <![CDATA[05-Aug-2020 12:05:23 AM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai383; Password: thamarai  </a>]]>
+    </line>
+    <line>
+      <![CDATA[05-Aug-2020 12:05:30 AM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="219416" started-at="2020-08-04T12:35:24 GMT+05:30" finished-at="2020-08-04T12:39:04 GMT+05:30">
+  <suite name="Default suite" duration-ms="36183" started-at="2020-08-05T00:04:55 GMT+05:30" finished-at="2020-08-05T00:05:31 GMT+05:30">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="219416" started-at="2020-08-04T12:35:24 GMT+05:30" finished-at="2020-08-04T12:39:04 GMT+05:30">
-      <class name="com.CucumberRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@649bec2e]" name="setUpClass" is-config="true" duration-ms="277" started-at="2020-08-04T12:35:24 GMT+05:30" finished-at="2020-08-04T12:35:25 GMT+05:30">
+    <test name="Default test" duration-ms="36183" started-at="2020-08-05T00:04:55 GMT+05:30" finished-at="2020-08-05T00:05:31 GMT+05:30">
+      <class name="com.maveric.scuba.tests.parabank.ParaBank_TestNG">
+        <test-method status="PASS" signature="Register_User()[pri:0, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@4e096385]" name="Register_User" duration-ms="34920" started-at="2020-08-05T00:04:55 GMT+05:30" finished-at="2020-08-05T00:05:30 GMT+05:30">
           <reporter-output>
+            <line>
+              <![CDATA[05-Aug-2020 12:05:09 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+            </line>
+            <line>
+              <![CDATA[05-Aug-2020 12:05:15 AM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
+            </line>
+            <line>
+              <![CDATA[05-Aug-2020 12:05:17 AM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
+            </line>
+            <line>
+              <![CDATA[05-Aug-2020 12:05:23 AM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai383; Password: thamarai  </a>]]>
+            </line>
+            <line>
+              <![CDATA[05-Aug-2020 12:05:30 AM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@649bec2e]" name="setTestName" is-config="true" duration-ms="3" started-at="2020-08-04T12:35:25 GMT+05:30" finished-at="2020-08-04T12:35:25 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@15deb1dc]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setTestName -->
-        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@649bec2e]" name="scenario" duration-ms="217245" started-at="2020-08-04T12:35:25 GMT+05:30" data-provider="scenarios" finished-at="2020-08-04T12:39:02 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register The User and Creating Account and Trasferring"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Parabank Assignment_Thamarai]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@649bec2e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-04T12:39:04 GMT+05:30" finished-at="2020-08-04T12:39:04 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Register The User and Creating Account and Trasferring status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@649bec2e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@649bec2e]" name="tearDownClass" is-config="true" duration-ms="144" started-at="2020-08-04T12:39:04 GMT+05:30" finished-at="2020-08-04T12:39:04 GMT+05:30">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.CucumberRunner -->
+        </test-method> <!-- Register_User -->
+      </class> <!-- com.maveric.scuba.tests.parabank.ParaBank_TestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

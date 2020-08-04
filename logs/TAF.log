@@ -810,3 +810,93 @@
 2020-08-04 12:35:31.518 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
 2020-08-04 12:39:04.144 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-08-04 12:39:04.146 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
+2020-08-04 17:24:15.569 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 17:24:15.584 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 17:24:15.584 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 17:24:15.676 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_05_24_15_PM
+2020-08-04 17:24:17.244 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-04 17:24:35.109 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 17:27:10.479 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 17:27:10.486 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
+2020-08-04 17:40:46.914 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 17:40:46.918 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 17:40:46.918 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 17:40:46.996 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_05_40_46_PM
+2020-08-04 17:40:47.463 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-04 17:40:53.674 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 17:43:28.237 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 17:43:28.240 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
+2020-08-04 17:54:14.182 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 17:54:14.186 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 17:54:14.186 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 17:54:14.203 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_05_54_14_PM
+2020-08-04 17:54:15.924 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-08-04 17:54:22.808 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 17:54:32.234 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 17:54:32.235 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-08-04 17:54:32.236 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-08-04 17:54:38.670 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 17:54:47.617 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 17:54:47.617 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-08-04 17:56:03.612 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_05_56_03_PM
+2020-08-04 17:56:04.799 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 17:56:04.800 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 17:56:04.801 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 17:56:05.574 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-04 17:56:12.049 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 17:59:55.222 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 17:59:55.223 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
+2020-08-04 23:41:28.308 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_11_41_28_PM
+2020-08-04 23:41:28.559 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 23:41:28.559 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 23:41:28.559 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 23:41:40.939 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 23:41:54.271 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-04 23:41:55.854 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 23:50:48.414 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_11_50_48_PM
+2020-08-04 23:50:48.513 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 23:50:48.513 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 23:50:48.514 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 23:50:55.624 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 23:51:08.658 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-04 23:51:10.287 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 23:53:15.900 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_11_53_15_PM
+2020-08-04 23:53:15.995 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 23:53:15.995 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 23:53:15.995 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 23:53:23.311 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 23:53:36.705 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-04 23:53:38.363 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 23:54:42.754 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_11_54_42_PM
+2020-08-04 23:54:42.822 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 23:54:42.823 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 23:54:42.823 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 23:54:49.846 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 23:55:02.217 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-04 23:55:03.743 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-04 23:57:02.124 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-04_Aug_2020_11_57_02_PM
+2020-08-04 23:57:02.189 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-04 23:57:02.189 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-04 23:57:02.190 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-04 23:57:09.071 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-04 23:57:23.405 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-04 23:57:24.942 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 00:01:08.925 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_12_01_08_AM
+2020-08-05 00:01:09.690 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 00:01:09.690 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 00:01:09.690 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 00:01:15.470 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 00:01:22.257 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-08-05 00:01:23.914 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 00:02:46.343 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_12_02_46_AM
+2020-08-05 00:02:47.121 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 00:02:47.121 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 00:02:47.122 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 00:02:53.273 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 00:03:02.185 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 00:04:54.704 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_12_04_54_AM
+2020-08-05 00:04:54.767 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 00:04:54.768 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 00:04:54.768 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 00:05:01.376 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 00:05:31.666 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed

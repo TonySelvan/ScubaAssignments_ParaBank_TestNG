@@ -14,6 +14,6 @@ public class ScubaMethods{
 	{	
 		Util.driverinitialize();
 		Util.urllaunch("https://parabank.parasoft.com/parabank/register.htm");
-		Util.logScreenshot("Sheet");
+		Act.logScreenshot("Sheet");
 	}
 }

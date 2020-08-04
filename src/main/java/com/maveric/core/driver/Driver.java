@@ -19,7 +19,6 @@ public class Driver {
     }
 
     public static WebDriver getWebDriver() {
-        System.out.println("Driver is get : " + driver);
     	return driver.get();
     }
 
