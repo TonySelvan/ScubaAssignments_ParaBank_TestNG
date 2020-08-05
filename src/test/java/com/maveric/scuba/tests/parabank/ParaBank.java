@@ -115,7 +115,7 @@ public class ParaBank{
 			Thread.sleep(3000);
 			Utils.send(page.AmountTextBox, "100");
 			Utils.dropdownselecttxt(page.ToAccountDropDown, firstAccount);
-			Utils.dropdownselecttxt(page.FromAccountDropDown, newAccountNumber);	
+			Utils.dropdownselecttxt(page.FromAccountDropDown, newAccountNumber);
 //			screenshot
 			Utils.logScreenshot("selected transUtilsion accounts");		
 			Utils.Btnclick(page.TransferButton);

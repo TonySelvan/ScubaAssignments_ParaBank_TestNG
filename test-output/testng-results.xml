@@ -2,134 +2,134 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[05-Aug-2020 01:36:25 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+      <![CDATA[05-Aug-2020 03:31:36 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:36:32 PM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
+      <![CDATA[05-Aug-2020 03:31:42 PM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:36:33 PM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
+      <![CDATA[05-Aug-2020 03:31:44 PM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:36:40 PM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai34; Password: thamarai  </a>]]>
+      <![CDATA[05-Aug-2020 03:31:50 PM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai781; Password: thamarai  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:36:46 PM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
+      <![CDATA[05-Aug-2020 03:31:56 PM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:00 PM : <a target=_blank href=screenshots/screenshot_6.png>UrlLaunch  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:10 PM : <a target=_blank href=screenshots/screenshot_6.png>UrlLaunch  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:01 PM : <a target=_blank href=screenshots/screenshot_7.png>Credentials entered  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:10 PM : <a target=_blank href=screenshots/screenshot_7.png>Credentials entered  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:08 PM : <a target=_blank href=screenshots/screenshot_8.png>Parabank Site logged in successfully  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:17 PM : <a target=_blank href=screenshots/screenshot_8.png>Parabank Site logged in successfully  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:14 PM : <a target=_blank href=screenshots/screenshot_9.png>Default account : 19782  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:23 PM : <a target=_blank href=screenshots/screenshot_9.png>Default account : 14232  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:40 PM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_11.png>Credentials entered  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:40 PM : <a target=_blank href=screenshots/screenshot_11.png>Credentials entered  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:36 PM : <a target=_blank href=screenshots/screenshot_12.png>Parabank Site logged in successfully  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:47 PM : <a target=_blank href=screenshots/screenshot_12.png>Parabank Site logged in successfully  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:42 PM : <a target=_blank href=screenshots/screenshot_13.png>Default account : 19782  </a>]]>
+      <![CDATA[05-Aug-2020 03:32:55 PM : <a target=_blank href=screenshots/screenshot_13.png>Default account : 14232  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:49 PM : <a target=_blank href=screenshots/screenshot_14.png>date entred for create account  </a>]]>
+      <![CDATA[05-Aug-2020 03:34:01 PM : <a target=_blank href=screenshots/screenshot_14.png>date entred for create account  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:37:55 PM : <a target=_blank href=screenshots/screenshot_15.png>Account created - '19893'  </a>]]>
+      <![CDATA[05-Aug-2020 03:34:08 PM : <a target=_blank href=screenshots/screenshot_15.png>Account created - '14343'  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:38:01 PM : <a target=_blank href=screenshots/screenshot_16.png>Utilsive accounts  </a>]]>
+      <![CDATA[05-Aug-2020 03:34:15 PM : <a target=_blank href=screenshots/screenshot_16.png>Utilsive accounts  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:39:10 PM : <a target=_blank href=screenshots/screenshot_17.png>selected transUtilsion accounts  </a>]]>
+      <![CDATA[05-Aug-2020 03:35:24 PM : <a target=_blank href=screenshots/screenshot_17.png>selected transUtilsion accounts  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:39:17 PM : <a target=_blank href=screenshots/screenshot_18.png>TransUtilsion completed successfully  </a>]]>
+      <![CDATA[05-Aug-2020 03:35:30 PM : <a target=_blank href=screenshots/screenshot_18.png>TransUtilsion completed successfully  </a>]]>
     </line>
     <line>
-      <![CDATA[05-Aug-2020 01:39:30 PM : <a target=_blank href=screenshots/screenshot_19.png>Parabank Site logged out  </a>]]>
+      <![CDATA[05-Aug-2020 03:35:43 PM : <a target=_blank href=screenshots/screenshot_19.png>Parabank Site logged out  </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="201052" started-at="2020-08-05T13:36:10 GMT+05:30" finished-at="2020-08-05T13:39:31 GMT+05:30">
+  <suite name="Default suite" duration-ms="261658" started-at="2020-08-05T15:31:23 GMT+05:30" finished-at="2020-08-05T15:35:45 GMT+05:30">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="201052" started-at="2020-08-05T13:36:10 GMT+05:30" finished-at="2020-08-05T13:39:31 GMT+05:30">
+    <test name="Default test" duration-ms="261658" started-at="2020-08-05T15:31:23 GMT+05:30" finished-at="2020-08-05T15:35:45 GMT+05:30">
       <class name="com.maveric.scuba.tests.parabank.ParaBank_TestNG">
-        <test-method status="PASS" signature="Register_User()[pri:1, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="Register_User" duration-ms="35843" started-at="2020-08-05T13:36:10 GMT+05:30" finished-at="2020-08-05T13:36:46 GMT+05:30">
+        <test-method status="PASS" signature="Register_User()[pri:1, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="Register_User" duration-ms="33120" started-at="2020-08-05T15:31:23 GMT+05:30" finished-at="2020-08-05T15:31:56 GMT+05:30">
           <reporter-output>
             <line>
-              <![CDATA[05-Aug-2020 01:36:25 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+              <![CDATA[05-Aug-2020 03:31:36 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:36:32 PM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
+              <![CDATA[05-Aug-2020 03:31:42 PM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:36:33 PM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
+              <![CDATA[05-Aug-2020 03:31:44 PM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:36:40 PM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai34; Password: thamarai  </a>]]>
+              <![CDATA[05-Aug-2020 03:31:50 PM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai781; Password: thamarai  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:36:46 PM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
+              <![CDATA[05-Aug-2020 03:31:56 PM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Register_User -->
-        <test-method status="PASS" signature="Paralogin()[pri:2, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="Paralogin" duration-ms="26675" started-at="2020-08-05T13:36:47 GMT+05:30" finished-at="2020-08-05T13:37:14 GMT+05:30">
+        <test-method status="PASS" signature="Paralogin()[pri:2, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="Paralogin" duration-ms="26004" started-at="2020-08-05T15:31:57 GMT+05:30" finished-at="2020-08-05T15:32:23 GMT+05:30">
           <reporter-output>
             <line>
-              <![CDATA[05-Aug-2020 01:37:00 PM : <a target=_blank href=screenshots/screenshot_6.png>UrlLaunch  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:10 PM : <a target=_blank href=screenshots/screenshot_6.png>UrlLaunch  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:01 PM : <a target=_blank href=screenshots/screenshot_7.png>Credentials entered  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:10 PM : <a target=_blank href=screenshots/screenshot_7.png>Credentials entered  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:08 PM : <a target=_blank href=screenshots/screenshot_8.png>Parabank Site logged in successfully  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:17 PM : <a target=_blank href=screenshots/screenshot_8.png>Parabank Site logged in successfully  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:14 PM : <a target=_blank href=screenshots/screenshot_9.png>Default account : 19782  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:23 PM : <a target=_blank href=screenshots/screenshot_9.png>Default account : 14232  </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Paralogin -->
-        <test-method status="PASS" signature="AccountCreation()[pri:3, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="AccountCreation" duration-ms="134868" started-at="2020-08-05T13:37:15 GMT+05:30" finished-at="2020-08-05T13:39:30 GMT+05:30">
+        <test-method status="PASS" signature="AccountCreation()[pri:3, instance:com.maveric.scuba.tests.parabank.ParaBank_TestNG@1613674b]" name="AccountCreation" duration-ms="198818" started-at="2020-08-05T15:32:25 GMT+05:30" finished-at="2020-08-05T15:35:43 GMT+05:30">
           <reporter-output>
             <line>
-              <![CDATA[05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:40 PM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_11.png>Credentials entered  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:40 PM : <a target=_blank href=screenshots/screenshot_11.png>Credentials entered  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:36 PM : <a target=_blank href=screenshots/screenshot_12.png>Parabank Site logged in successfully  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:47 PM : <a target=_blank href=screenshots/screenshot_12.png>Parabank Site logged in successfully  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:42 PM : <a target=_blank href=screenshots/screenshot_13.png>Default account : 19782  </a>]]>
+              <![CDATA[05-Aug-2020 03:32:55 PM : <a target=_blank href=screenshots/screenshot_13.png>Default account : 14232  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:49 PM : <a target=_blank href=screenshots/screenshot_14.png>date entred for create account  </a>]]>
+              <![CDATA[05-Aug-2020 03:34:01 PM : <a target=_blank href=screenshots/screenshot_14.png>date entred for create account  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:37:55 PM : <a target=_blank href=screenshots/screenshot_15.png>Account created - '19893'  </a>]]>
+              <![CDATA[05-Aug-2020 03:34:08 PM : <a target=_blank href=screenshots/screenshot_15.png>Account created - '14343'  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:38:01 PM : <a target=_blank href=screenshots/screenshot_16.png>Utilsive accounts  </a>]]>
+              <![CDATA[05-Aug-2020 03:34:15 PM : <a target=_blank href=screenshots/screenshot_16.png>Utilsive accounts  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:39:10 PM : <a target=_blank href=screenshots/screenshot_17.png>selected transUtilsion accounts  </a>]]>
+              <![CDATA[05-Aug-2020 03:35:24 PM : <a target=_blank href=screenshots/screenshot_17.png>selected transUtilsion accounts  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:39:17 PM : <a target=_blank href=screenshots/screenshot_18.png>TransUtilsion completed successfully  </a>]]>
+              <![CDATA[05-Aug-2020 03:35:30 PM : <a target=_blank href=screenshots/screenshot_18.png>TransUtilsion completed successfully  </a>]]>
             </line>
             <line>
-              <![CDATA[05-Aug-2020 01:39:30 PM : <a target=_blank href=screenshots/screenshot_19.png>Parabank Site logged out  </a>]]>
+              <![CDATA[05-Aug-2020 03:35:43 PM : <a target=_blank href=screenshots/screenshot_19.png>Parabank Site logged out  </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AccountCreation -->

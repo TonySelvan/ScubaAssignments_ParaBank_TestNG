@@ -987,3 +987,91 @@ Session ID: ba60da73fa6ebfd80814a2801bc3ffd2
 2020-08-05 13:46:08.924 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-08-05 13:46:14.464 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
 2020-08-05 13:48:23.900 [TestNG-test=TestNG Test0-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 15:08:30.652 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_03_08_30_PM
+2020-08-05 15:08:30.706 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 15:08:30.706 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 15:08:30.706 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 15:08:37.650 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:08:39.804 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:19:36.843 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_03_19_36_PM
+2020-08-05 15:19:36.895 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 15:19:36.895 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 15:19:36.895 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 15:19:43.446 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:19:45.586 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:19:57.213 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai inBy.xpath: //*[@id='customer.firstName']
+2020-08-05 15:19:57.323 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan inBy.xpath: //*[@id='customer.lastName']
+2020-08-05 15:19:57.475 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai inBy.xpath: //*[@id='customer.address.street']
+2020-08-05 15:19:57.607 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai inBy.xpath: //*[@id='customer.address.city']
+2020-08-05 15:19:57.720 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu inBy.xpath: //*[@id='customer.address.state']
+2020-08-05 15:19:57.828 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 inBy.xpath: //*[@id='customer.address.zipCode']
+2020-08-05 15:19:57.948 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 inBy.xpath: //*[@id='customer.phoneNumber']
+2020-08-05 15:19:58.074 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 inBy.xpath: //*[@id='customer.ssn']
+2020-08-05 15:19:58.193 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai1051 inBy.xpath: //*[@id='customer.username']
+2020-08-05 15:19:58.301 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai inBy.xpath: //*[@id='customer.password']
+2020-08-05 15:19:58.412 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai inBy.xpath: //*[@id='repeatedPassword']
+2020-08-05 15:20:13.638 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 15:28:00.160 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_03_28_00_PM
+2020-08-05 15:28:00.215 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 15:28:00.216 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 15:28:00.216 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 15:28:06.762 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:28:08.914 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:28:19.752 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-05 15:28:20.258 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-05 15:28:20.373 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-05 15:28:20.508 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-05 15:28:20.631 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-05 15:28:20.746 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-05 15:28:20.850 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-05 15:28:20.963 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-05 15:28:21.094 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-05 15:28:21.212 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai889 in By.xpath: //*[@id='customer.username']
+2020-08-05 15:28:21.328 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-05 15:28:21.451 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-05 15:28:27.298 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-05 15:28:34.038 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-05 15:28:35.533 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 15:31:22.164 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-05_Aug_2020_03_31_22_PM
+2020-08-05 15:31:22.207 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-05 15:31:22.207 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-05 15:31:22.208 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-05 15:31:29.559 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:31:31.699 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:31:42.445 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-05 15:31:42.932 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-05 15:31:43.038 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-05 15:31:43.181 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-05 15:31:43.311 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-05 15:31:43.430 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-05 15:31:43.539 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-05 15:31:43.661 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-05 15:31:43.785 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-05 15:31:43.912 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai781 in By.xpath: //*[@id='customer.username']
+2020-08-05 15:31:44.061 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-05 15:31:44.181 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-05 15:31:49.974 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-05 15:31:56.126 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-05 15:31:57.812 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 15:32:03.495 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:32:05.625 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:32:10.218 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai781 in By.xpath: //input[@name='username']
+2020-08-05 15:32:10.333 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-05 15:32:17.206 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-05 15:32:23.101 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Accounts Overview']
+2020-08-05 15:32:25.085 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-05 15:32:31.588 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-05 15:32:33.716 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-05 15:32:40.414 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai781 in By.xpath: //input[@name='username']
+2020-08-05 15:32:40.526 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-05 15:32:47.537 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-05 15:32:53.536 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Accounts Overview']
+2020-08-05 15:33:01.256 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Open New Account']
+2020-08-05 15:34:07.004 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Open New Account']
+2020-08-05 15:34:14.758 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Accounts Overview']
+2020-08-05 15:34:20.562 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Transfer Funds']
+2020-08-05 15:34:23.718 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 100 in By.xpath: //*[@id='amount']
+2020-08-05 15:35:29.307 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Transfer']
+2020-08-05 15:35:37.026 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Accounts Overview']
+2020-08-05 15:35:43.470 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-05 15:35:45.101 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
