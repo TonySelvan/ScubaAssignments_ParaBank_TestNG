@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.maveric</groupId>
-    <artifactId>TAF</artifactId>
+    <artifactId>TAF_ParaBank_TestNG</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>test-automation-framework</name>
     <properties>
@@ -26,7 +26,7 @@
         <rest.assured.version>4.3.0</rest.assured.version>
         <!-- surefire properties-->
         <suite>
-            cucumber_web.xml
+           web.xml
         </suite>
         <suiteFile>./src/test/resources/test_suites/${suite}</suiteFile>
     </properties>

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-2045532519\testng-customsuite.xml</span>
+                    <span>C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-436902154\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.parabank.ParaBank_TestNG" hash-for-method="AccountCreation">AccountCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.parabank.ParaBank_TestNG" hash-for-method="Paralogin">Paralogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.parabank.ParaBank_TestNG" hash-for-method="Register_User">Register_User</a> <!-- method navigator-link -->
@@ -125,6 +135,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="AccountCreation">
+                  </a> <!-- AccountCreation -->
+                  <span class="method-name">AccountCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Paralogin">
+                  </a> <!-- Paralogin -->
+                  <span class="method-name">Paralogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="Register_User">
                   </a> <!-- Register_User -->
                   <span class="method-name">Register_User</span>
@@ -135,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-2045532519\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-436902154\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,11 +168,7 @@
 &lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;methods&quot;&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;2&quot; name=&quot;Default test&quot; parallel=&quot;methods&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.maveric.scuba.tests.parabank.ParaBank_TestNG&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;Register_User&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.maveric.scuba.tests.parabank.ParaBank_TestNG --&gt;
+      &lt;class name=&quot;com.maveric.scuba.tests.parabank.ParaBank_TestNG&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,16 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Register_User')
+data.setCell(0, 1, 'AccountCreation')
 data.setCell(0, 2, 'com.maveric.scuba.tests.parabank.ParaBank_TestNG')
-data.setCell(0, 3, 34920);
+data.setCell(0, 3, 134868);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Register_User')
+data.setCell(1, 2, 'com.maveric.scuba.tests.parabank.ParaBank_TestNG')
+data.setCell(1, 3, 35843);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Paralogin')
+data.setCell(2, 2, 'com.maveric.scuba.tests.parabank.ParaBank_TestNG')
+data.setCell(2, 3, 26675);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -211,11 +239,35 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">Register_User</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">05-Aug-2020 12:05:09 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a></span>
-                <span class="reporter-method-output">05-Aug-2020 12:05:15 AM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a></span>
-                <span class="reporter-method-output">05-Aug-2020 12:05:17 AM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a></span>
-                <span class="reporter-method-output">05-Aug-2020 12:05:23 AM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai383; Password: thamarai  </a></span>
-                <span class="reporter-method-output">05-Aug-2020 12:05:30 AM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:36:25 PM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:36:32 PM : <a target=_blank href=screenshots/screenshot_2.png>Parabank Site loaded : Login screen  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:36:33 PM : <a target=_blank href=screenshots/screenshot_3.png>Parabank Site : New User Registration Values are Entered  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:36:40 PM : <a target=_blank href=screenshots/screenshot_4.png>Parabank Site logged in : New user registered with ID thamarai34; Password: thamarai  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:36:46 PM : <a target=_blank href=screenshots/screenshot_5.png>Parabank Site logged out after creating registering a new user  </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AccountCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:28 PM : <a target=_blank href=screenshots/screenshot_11.png>Credentials entered  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:36 PM : <a target=_blank href=screenshots/screenshot_12.png>Parabank Site logged in successfully  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:42 PM : <a target=_blank href=screenshots/screenshot_13.png>Default account : 19782  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:49 PM : <a target=_blank href=screenshots/screenshot_14.png>date entred for create account  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:55 PM : <a target=_blank href=screenshots/screenshot_15.png>Account created - '19893'  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:38:01 PM : <a target=_blank href=screenshots/screenshot_16.png>Utilsive accounts  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:39:10 PM : <a target=_blank href=screenshots/screenshot_17.png>selected transUtilsion accounts  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:39:17 PM : <a target=_blank href=screenshots/screenshot_18.png>TransUtilsion completed successfully  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:39:30 PM : <a target=_blank href=screenshots/screenshot_19.png>Parabank Site logged out  </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Paralogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">05-Aug-2020 01:37:00 PM : <a target=_blank href=screenshots/screenshot_6.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:01 PM : <a target=_blank href=screenshots/screenshot_7.png>Credentials entered  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:08 PM : <a target=_blank href=screenshots/screenshot_8.png>Parabank Site logged in successfully  </a></span>
+                <span class="reporter-method-output">05-Aug-2020 01:37:14 PM : <a target=_blank href=screenshots/screenshot_9.png>Default account : 19782  </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,6 +289,14 @@ return data;
               <div class="test-method">
                 <span class="method-name">Register_User</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Paralogin</span>
+                <span class="method-start">36968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AccountCreation</span>
+                <span class="method-start">64755 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -10,10 +10,27 @@ public class ParaBank_TestNG extends BaseTest{
 	Scubautils Utils = new Scubautils();
 	ParaBank Para = new ParaBank();
 	
-	@Test
+	@Test(priority =1)
 	public void Register_User()
 	{
 		Para.launch();
 		Para.User_Registration();
+	}
+	
+	@Test(priority =2)
+	public void Paralogin()
+	{
+		Para.launch();
+		Para.login();
+	}
+	
+	@Test(priority =3)
+	public void AccountCreation() throws Throwable
+	{
+		Para.launch();
+		Para.login();
+		Para.createAccount();
+		Para.transferFunds();
+		Para.viewAccount();
 	}
 }

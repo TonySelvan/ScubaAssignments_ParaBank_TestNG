@@ -3,7 +3,7 @@
 <suite name="TestNG Suite">
     <test name="TestNG Test0">
         <classes>
-            <class name="com.internetapp.tests.Login"/>
+            <class name="com.maveric.scuba.tests.parabank.ParaBank_TestNG"/>
         </classes>
     </test> <!-- TestNG Test0 -->
 </suite> <!-- TestNG Suite -->
