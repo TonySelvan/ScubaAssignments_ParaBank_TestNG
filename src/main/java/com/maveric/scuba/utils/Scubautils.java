@@ -41,6 +41,7 @@ public class Scubautils extends WebActions{
 	public void driverinitialize()
 	{
 		driver = Driver.getWebDriver();
+		wait = new WebDriverWait(driver, 60);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		logger.info("Driver Is Launched and Maximized");
@@ -63,8 +64,8 @@ public class Scubautils extends WebActions{
 	{
 		try
 		{
-//			wait.until(ExpectedConditions.visibilityOf((WebElement) loc ));
 			WebElement ele = driver.findElement(loc);
+			wait.until(ExpectedConditions.visibilityOf(ele));
 			ele.clear();
 			ele.sendKeys(value);
 			logger.info("User Set the Value " + value + " in " + loc );
@@ -83,8 +84,8 @@ public class Scubautils extends WebActions{
 		try
 		{
 			Thread.sleep(5000);
-//			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
 			WebElement ele = driver.findElement(loc);
+			wait.until(ExpectedConditions.elementToBeClickable(ele));
 			ele.click();
 			logger.info("User Clicked the " + loc );
 		}
@@ -94,9 +95,9 @@ public class Scubautils extends WebActions{
 //            js.executeScript("arguments[0].click();",ele );
 			String exception = e.getMessage();
 			e.printStackTrace();
-			WebElement element = driver.findElement(loc);
+//			WebElement element = driver.findElement(loc);
 			Actions actions = new Actions(driver);
-			actions.moveToElement(element).click().perform();
+			actions.moveToElement(ele).click().perform();
 			logger.warn("User Couldn't click on " + loc + "And the Exception Message is " + exception );
 		}
 	}
@@ -345,7 +346,8 @@ public class Scubautils extends WebActions{
 		send(pageobjects.Password, "Maveric@123");
 		Btnclick(pageobjects.Login_Submit);
 		Thread.sleep(5000);
-		Btnclick(pageobjects.Goto_BookStore);
+		driver.navigate().to("https://demoqa.com/books");
+//		Btnclick(pageobjects.Goto_BookStore);
 		logScreenshot("BookStore is Launched");
 		Btnclick(pageobjects.BookName);
 		Btnclick(pageobjects.AddCollection);
@@ -359,7 +361,7 @@ public class Scubautils extends WebActions{
 		Thread.sleep(2000);
 		alertok();
 		logScreenshot("All Books are deleted");
-		Btnclick(pageobjects.Logout);		
+		Btnclick(pageobjects.Logout);
 	}
 	
 ////////////////////////////Element Level Functions///////////////////////	
