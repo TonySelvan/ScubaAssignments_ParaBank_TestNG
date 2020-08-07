@@ -38,7 +38,7 @@ public class TestNG_ReportsAndLogs {
 	@Test
 	public void testMethod2() {
 		Reporter.log("TestNG_ReportsAndLogs -> testMethod2", true);
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 	@Test(dependsOnMethods={ "testMethod2" })

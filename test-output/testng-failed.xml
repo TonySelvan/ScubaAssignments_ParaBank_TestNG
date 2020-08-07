@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestNG Suite]" parallel="tests">
-  <test thread-count="1" name="ParaBank_TestNG(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maveric.scuba.tests.parabank.ParaBank_TestNG">
+      <class name="com.internetapp.tests.reports.TestNG_ReportsAndLogs">
         <methods>
-          <include name="AccountCreation"/>
-          <include name="Paralogin"/>
-          <include name="Register_User"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="testMethod3"/>
+          <include name="beforeMethod"/>
+          <include name="testMethod2"/>
+          <include name="cleanUp"/>
         </methods>
-      </class> <!-- com.maveric.scuba.tests.parabank.ParaBank_TestNG -->
+      </class> <!-- com.internetapp.tests.reports.TestNG_ReportsAndLogs -->
     </classes>
-  </test> <!-- ParaBank_TestNG(failed) -->
-</suite> <!-- Failed suite [TestNG Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
