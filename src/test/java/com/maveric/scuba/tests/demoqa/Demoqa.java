@@ -49,15 +49,15 @@ public  void BookStore() throws InterruptedException
 public void AllElements()
 {
 	Method.login();
-//	Utils.driverinitialize();
-//	Utils.urllaunch("https://demoqa.com/login");
-//	Utils.textbox();
-//	Utils.checkbox();
-//	Utils.radiobutton();
-//	Utils.buttons();
-//	Utils.windows();
-//	Utils.alerts();
-//	Utils.modal();
+	Utils.driverinitialize();
+	Utils.urllaunch("https://demoqa.com/login");
+	Utils.textbox();
+	Utils.checkbox();
+	Utils.radiobutton();
+	Utils.buttons();
+	Utils.windows();
+	Utils.alerts();
+	Utils.modal();
 }
 
 
