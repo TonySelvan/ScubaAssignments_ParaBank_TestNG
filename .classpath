@@ -36,8 +36,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/lombok-1.18.12.jar"/>
 	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/bson-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/extentreports-2.41.2.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/freemarker-2.3.23.jar"/>
 	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/jsoup-1.8.3.jar"/>
 	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/mongodb-driver-3.0.4.jar"/>
 	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/mongodb-driver-core-3.0.4.jar"/>

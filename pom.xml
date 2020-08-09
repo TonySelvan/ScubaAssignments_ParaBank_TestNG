@@ -156,8 +156,6 @@
         <!--            <artifactId>db2jcc</artifactId>-->
         <!--            <version>db2jcc4</version>-->
         <!--        </dependency>-->
-
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
@@ -179,11 +177,11 @@
         <groupId>com.aventstack</groupId>
         <artifactId>extentreports-testng-adapter</artifactId>
         <version>1.0.7</version>
-    </dependency>
-    <dependency>
+    </dependency> 
+        <dependency>
     <groupId>org.freemarker</groupId>
     <artifactId>freemarker</artifactId>
-    <version>2.3.30</version>
+    <version>2.3.29</version>
     </dependency>
 <dependency>
     <groupId>com.aventstack</groupId>

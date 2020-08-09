@@ -1,6 +1,8 @@
 package com.maveric.core.testng;
 
+import com.aventstack.extentreports.testng.listener.ExtentIReporterSuiteClassListenerAdapter;
 import com.aventstack.extentreports.testng.listener.ExtentITestListenerAdapter;
+import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
 import com.maveric.core.testng.listeners.DriverListener;
 import com.maveric.core.testng.listeners.ReportListener;
 import com.maveric.core.testng.listeners.RestListener;
@@ -10,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 
-@Listeners({TestListener.class, ReportListener.class, DriverListener.class, RestListener.class, ExtentITestListenerAdapter.class})
+@Listeners({TestListener.class, ReportListener.class, DriverListener.class, RestListener.class, ExtentIReporterSuiteClassListenerAdapter.class})
 public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     private void beforeSuite() {

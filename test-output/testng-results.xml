@@ -1,106 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_2.png>Sheet  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:03:34 AM : <a target=_blank href=screenshots/screenshot_3.png>UrlLaunch  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:03:45 AM : <a target=_blank href=screenshots/screenshot_4.png>CheckBox Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:03:56 AM : <a target=_blank href=screenshots/screenshot_5.png>Radio Button Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:03 AM : <a target=_blank href=screenshots/screenshot_6.png>Buttons Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:11 AM : <a target=_blank href=screenshots/screenshot_7.png>Windows Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:17 AM : <a target=_blank href=screenshots/screenshot_8.png>Alert Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:28 AM : <a target=_blank href=screenshots/screenshot_9.png>Modal Element is Completed  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_11.png>Practice Form is Launched  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:05:09 AM : <a target=_blank href=screenshots/screenshot_12.png>All the values are Set  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:05:19 AM : <a target=_blank href=screenshots/screenshot_13.png>Form is Created Successfully  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_14.png>UrlLaunch  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_15.png>DemoQA Login Page is launched  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:05:49 AM : <a target=_blank href=screenshots/screenshot_16.png>BookStore is Launched  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:06:05 AM : <a target=_blank href=screenshots/screenshot_17.png>Book is Added to the Collection  </a>]]>
+    </line>
+    <line>
+      <![CDATA[10-Aug-2020 01:06:29 AM : <a target=_blank href=screenshots/screenshot_18.png>All Books are deleted  </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="220069" started-at="2020-08-08T17:06:25 GMT+05:30" finished-at="2020-08-08T17:10:05 GMT+05:30">
+  <suite name="Default suite" duration-ms="202223" started-at="2020-08-10T01:03:13 GMT+05:30" finished-at="2020-08-10T01:06:35 GMT+05:30">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="220069" started-at="2020-08-08T17:06:25 GMT+05:30" finished-at="2020-08-08T17:10:05 GMT+05:30">
-      <class name="com.CucumberRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@69997e9d]" name="setUpClass" is-config="true" duration-ms="289" started-at="2020-08-08T17:06:25 GMT+05:30" finished-at="2020-08-08T17:06:26 GMT+05:30">
+    <test name="Default test" duration-ms="202223" started-at="2020-08-10T01:03:13 GMT+05:30" finished-at="2020-08-10T01:06:35 GMT+05:30">
+      <class name="com.maveric.scuba.tests.demoqa.Demoqa">
+        <test-method status="PASS" signature="AllElements()[pri:0, instance:com.maveric.scuba.tests.demoqa.Demoqa@66498326]" name="AllElements" duration-ms="75502" started-at="2020-08-10T01:03:13 GMT+05:30" finished-at="2020-08-10T01:04:28 GMT+05:30">
           <reporter-output>
+            <line>
+              <![CDATA[10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_2.png>Sheet  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:03:34 AM : <a target=_blank href=screenshots/screenshot_3.png>UrlLaunch  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:03:45 AM : <a target=_blank href=screenshots/screenshot_4.png>CheckBox Element is Completed  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:03:56 AM : <a target=_blank href=screenshots/screenshot_5.png>Radio Button Element is Completed  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:03 AM : <a target=_blank href=screenshots/screenshot_6.png>Buttons Element is Completed  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:11 AM : <a target=_blank href=screenshots/screenshot_7.png>Windows Element is Completed  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:17 AM : <a target=_blank href=screenshots/screenshot_8.png>Alert Element is Completed  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:28 AM : <a target=_blank href=screenshots/screenshot_9.png>Modal Element is Completed  </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@69997e9d]" name="setTestName" is-config="true" duration-ms="5" started-at="2020-08-08T17:06:26 GMT+05:30" finished-at="2020-08-08T17:06:26 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@24528a25]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- AllElements -->
+        <test-method status="PASS" signature="ProfileForm()[pri:1, instance:com.maveric.scuba.tests.demoqa.Demoqa@66498326]" name="ProfileForm" duration-ms="54804" started-at="2020-08-10T01:04:30 GMT+05:30" finished-at="2020-08-10T01:05:24 GMT+05:30">
           <reporter-output>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_11.png>Practice Form is Launched  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:05:09 AM : <a target=_blank href=screenshots/screenshot_12.png>All the values are Set  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:05:19 AM : <a target=_blank href=screenshots/screenshot_13.png>Form is Created Successfully  </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setTestName -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@69997e9d]" name="scenario" duration-ms="218432" started-at="2020-08-08T17:06:26 GMT+05:30" data-provider="scenarios" finished-at="2020-08-08T17:10:04 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register The User and Creating Account and Trasferring"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Parabank Assignment_Thamarai]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Log Out']"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
-*** Element info: {Using=xpath, value=//*[text()='Log Out']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Log Out']"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
-*** Element info: {Using=xpath, value=//*[text()='Log Out']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:99)
-at com.maveric.scuba.tests.parabank.ParaBankWithDB.User_Registration(ParaBankWithDB.java:67)
-at ✽.Register The User Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- ProfileForm -->
+        <test-method status="PASS" signature="BookStore()[pri:2, instance:com.maveric.scuba.tests.demoqa.Demoqa@66498326]" name="BookStore" duration-ms="68070" started-at="2020-08-10T01:05:26 GMT+05:30" finished-at="2020-08-10T01:06:34 GMT+05:30">
           <reporter-output>
+            <line>
+              <![CDATA[10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_14.png>UrlLaunch  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_15.png>DemoQA Login Page is launched  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:05:49 AM : <a target=_blank href=screenshots/screenshot_16.png>BookStore is Launched  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:06:05 AM : <a target=_blank href=screenshots/screenshot_17.png>Book is Added to the Collection  </a>]]>
+            </line>
+            <line>
+              <![CDATA[10-Aug-2020 01:06:29 AM : <a target=_blank href=screenshots/screenshot_18.png>All Books are deleted  </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@69997e9d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-08T17:10:05 GMT+05:30" finished-at="2020-08-08T17:10:05 GMT+05:30">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Register The User and Creating Account and Trasferring status=FAILURE method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@69997e9d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@69997e9d]" name="tearDownClass" is-config="true" duration-ms="54" started-at="2020-08-08T17:10:05 GMT+05:30" finished-at="2020-08-08T17:10:05 GMT+05:30">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.CucumberRunner -->
+        </test-method> <!-- BookStore -->
+      </class> <!-- com.maveric.scuba.tests.demoqa.Demoqa -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

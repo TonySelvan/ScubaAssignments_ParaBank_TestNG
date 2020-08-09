@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-1560916770\testng-customsuite.xml</span>
+                    <span>C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-857796885\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.CucumberRunner" hash-for-method="scenario(&quot;Register The User and Creating Account and Trasferring&quot;, &quot;Optional[Parabank Assignment_Thamarai]&quot;)">scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.demoqa.Demoqa" hash-for-method="AllElements">AllElements</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.demoqa.Demoqa" hash-for-method="BookStore">BookStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maveric.scuba.tests.demoqa.Demoqa" hash-for-method="ProfileForm">ProfileForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,54 +127,39 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.CucumberRunner</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.maveric.scuba.tests.demoqa.Demoqa</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="scenario(&quot;Register The User and Creating Account and Trasferring&quot;, &quot;Optional[Parabank Assignment_Thamarai]&quot;)">
-                  </a> <!-- scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]") -->
-                  <span class="method-name">scenario</span>
-                  <span class="parameters">("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Log Out&apos;]&quot;}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MAVBCP203&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
-*** Element info: {Using=xpath, value=//*[text()=&apos;Log Out&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:99)
-	at com.maveric.scuba.tests.parabank.ParaBankWithDB.User_Registration(ParaBankWithDB.java:67)
-	at ✽.Register The User Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:9)
-
-</div> <!-- stack-trace -->
+                  <a name="AllElements">
+                  </a> <!-- AllElements -->
+                  <span class="method-name">AllElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookStore">
+                  </a> <!-- BookStore -->
+                  <span class="method-name">BookStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProfileForm">
+                  </a> <!-- ProfileForm -->
+                  <span class="method-name">ProfileForm</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-1560916770\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\thamaraiselvank\AppData\Local\Temp\testng-eclipse-857796885\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -173,7 +168,7 @@ Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
 &lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;methods&quot;&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;2&quot; name=&quot;Default test&quot; parallel=&quot;methods&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.CucumberRunner&quot;/&gt;
+      &lt;class name=&quot;com.maveric.scuba.tests.demoqa.Demoqa&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -213,11 +208,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'scenario')
-data.setCell(0, 2, 'com.CucumberRunner')
-data.setCell(0, 3, 218432);
+data.setCell(0, 1, 'AllElements')
+data.setCell(0, 2, 'com.maveric.scuba.tests.demoqa.Demoqa')
+data.setCell(0, 3, 75502);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BookStore')
+data.setCell(1, 2, 'com.maveric.scuba.tests.demoqa.Demoqa')
+data.setCell(1, 3, 68070);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ProfileForm')
+data.setCell(2, 2, 'com.maveric.scuba.tests.demoqa.Demoqa')
+data.setCell(2, 3, 54804);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -233,6 +236,39 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AllElements</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_1.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:03:30 AM : <a target=_blank href=screenshots/screenshot_2.png>Sheet  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:03:34 AM : <a target=_blank href=screenshots/screenshot_3.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:03:45 AM : <a target=_blank href=screenshots/screenshot_4.png>CheckBox Element is Completed  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:03:56 AM : <a target=_blank href=screenshots/screenshot_5.png>Radio Button Element is Completed  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:04:03 AM : <a target=_blank href=screenshots/screenshot_6.png>Buttons Element is Completed  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:04:11 AM : <a target=_blank href=screenshots/screenshot_7.png>Windows Element is Completed  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:04:17 AM : <a target=_blank href=screenshots/screenshot_8.png>Alert Element is Completed  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:04:28 AM : <a target=_blank href=screenshots/screenshot_9.png>Modal Element is Completed  </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ProfileForm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_10.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:04:41 AM : <a target=_blank href=screenshots/screenshot_11.png>Practice Form is Launched  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:05:09 AM : <a target=_blank href=screenshots/screenshot_12.png>All the values are Set  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:05:19 AM : <a target=_blank href=screenshots/screenshot_13.png>Form is Created Successfully  </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BookStore</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_14.png>UrlLaunch  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:05:37 AM : <a target=_blank href=screenshots/screenshot_15.png>DemoQA Login Page is launched  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:05:49 AM : <a target=_blank href=screenshots/screenshot_16.png>BookStore is Launched  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:06:05 AM : <a target=_blank href=screenshots/screenshot_17.png>Book is Added to the Collection  </a></span>
+                <span class="reporter-method-output">10-Aug-2020 01:06:29 AM : <a target=_blank href=screenshots/screenshot_18.png>All Books are deleted  </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -248,29 +284,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.CucumberRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setTestName(public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io....)</span>
-                <span class="method-start">303 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.maveric.scuba.tests.demoqa.Demoqa</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</span>
-                <span class="method-start">309 ms</span>
+                <span class="method-name">AllElements</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=Register The User and Creating Account and Trasferring status=FAILURE method=Cucumb...)</span>
-                <span class="method-start">219983 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">219985 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">ProfileForm</span>
+                <span class="method-start">76692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookStore</span>
+                <span class="method-start">132751 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
