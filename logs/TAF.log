@@ -1612,3 +1612,382 @@ Session ID: 98b2542961b89a1bff05ccec4ace73a9
 2020-08-09 10:59:43.806 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 2020-08-09 10:59:43.821 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
 2020-08-09 10:59:50.346 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-09 14:38:25.257 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 14:38:25.262 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 14:38:25.263 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_02_38_25_PM
+2020-08-09 14:38:41.105 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 14:38:41.108 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : Register_User
+2020-08-09 14:38:43.275 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 14:38:54.871 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 14:38:55.573 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-09 14:38:55.728 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-09 14:38:55.912 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-09 14:38:56.072 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-09 14:38:56.217 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-09 14:38:56.323 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='customer.address.zipCode']}
+2020-08-09 14:38:56.470 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='customer.phoneNumber']}
+2020-08-09 14:38:56.536 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='customer.ssn']}
+2020-08-09 14:38:56.544 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value THAMARAI234 in By.xpath: //*[@id='customer.username']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='customer.username']}
+2020-08-09 14:38:56.661 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value THAMARAI in By.xpath: //*[@id='customer.password']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='customer.password']}
+2020-08-09 14:38:56.714 [TestNG-tests-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value THAMARAI in By.xpath: //*[@id='repeatedPassword']And the Exception Message is no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+*** Element info: {Using=xpath, value=//*[@id='repeatedPassword']}
+2020-08-09 14:38:56.720 [TestNG-tests-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+2020-08-09 14:38:56.737 [TestNG-tests-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+2020-08-09 14:39:06.464 [TestNG-tests-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbdcb7e981cb8aa1a713210e7209a96
+2020-08-09 14:39:12.748 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 14:39:12.749 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : AccountCreation
+2020-08-09 14:39:14.885 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 14:39:18.531 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai234 in By.xpath: //input[@name='username']
+2020-08-09 14:39:18.703 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-09 14:40:37.770 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 14:40:37.774 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 14:40:38.161 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_02_40_38_PM
+2020-08-09 14:40:55.987 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 14:41:02.307 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 14:41:02.311 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : Paralogin
+2020-08-09 14:41:04.483 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 14:41:08.519 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //input[@name='username']
+2020-08-09 14:41:08.687 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-09 14:41:14.672 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-09 14:52:17.804 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 14:52:17.808 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 14:52:17.808 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 14:52:17.809 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_02_52_17_PM
+2020-08-09 14:52:18.730 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 14:52:24.994 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 14:52:27.621 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 14:52:33.517 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:39.988 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-09 14:52:45.380 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.400 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-09 14:52:45.421 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.441 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-09 14:52:45.444 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.459 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-09 14:52:45.461 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.475 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-09 14:52:45.483 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.498 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-09 14:52:45.501 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.518 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-09 14:52:45.521 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.537 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-09 14:52:45.539 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.554 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-09 14:52:45.569 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 257 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-09 14:52:45.572 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.587 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-09 14:52:45.590 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:52:45.607 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-09 14:52:52.060 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-09 14:53:08.535 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 14:53:08.539 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97123196406711d78c9c735f50681121
+2020-08-09 14:53:08.556 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97123196406711d78c9c735f50681121
+2020-08-09 14:53:09.161 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 14:53:09.202 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-09 14:57:02.430 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 14:57:02.435 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 14:57:02.437 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 14:57:02.439 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_02_57_02_PM
+2020-08-09 14:57:03.115 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 14:57:09.349 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 14:57:11.728 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 14:57:22.822 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 14:57:23.387 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-09 14:57:23.523 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-09 14:57:23.693 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-09 14:57:23.844 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-09 14:57:23.976 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-09 14:57:24.123 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-09 14:57:24.266 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-09 14:57:24.414 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-09 14:57:24.556 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai469 in By.xpath: //*[@id='customer.username']
+2020-08-09 14:57:24.697 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-09 14:57:24.847 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-09 14:57:31.454 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-09 14:57:37.579 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-09 14:57:38.187 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai469 in By.xpath: //input[@name='username']
+2020-08-09 14:57:38.328 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-09 14:57:44.222 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-09 15:00:47.287 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:00:47.290 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:00:47.645 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_00_47_PM
+2020-08-09 15:00:54.357 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:00:54.360 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : Register_User
+2020-08-09 15:00:56.514 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:01:13.544 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 15:01:14.110 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-09 15:01:14.242 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-09 15:01:14.407 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-09 15:01:14.550 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-09 15:01:14.694 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-09 15:01:14.825 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-09 15:01:14.966 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-09 15:01:15.118 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-09 15:01:15.261 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai552 in By.xpath: //*[@id='customer.username']
+2020-08-09 15:01:15.425 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-09 15:01:15.588 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-09 15:01:21.447 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-09 15:01:28.125 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-09 15:01:28.545 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Completing the Test : Register_User
+2020-08-09 15:01:29.649 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 15:01:35.195 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:01:35.196 [TestNG-tests-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : Paralogin
+2020-08-09 15:01:37.342 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:01:42.345 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai552 in By.xpath: //input[@name='username']
+2020-08-09 15:01:42.481 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-09 15:01:48.400 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-09 15:10:48.592 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_10_48_PM
+2020-08-09 15:10:49.780 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:10:49.781 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:10:55.772 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:10:57.914 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:11:05.260 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 15:11:10.832 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:11:12.971 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:11:21.392 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai Selvan in By.id: firstName
+2020-08-09 15:11:21.537 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Kandasamy in By.id: lastName
+2020-08-09 15:11:21.703 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value ktselvan4029@gmail.com in By.id: userEmail
+2020-08-09 15:11:26.819 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //label[@for='gender-radio-1']
+2020-08-09 15:11:26.991 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.id: userNumber
+2020-08-09 15:11:27.711 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value English in By.id: subjectsInput
+2020-08-09 15:11:32.863 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //label[@for='hobbies-checkbox-3']
+2020-08-09 15:11:37.957 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //label[@for='hobbies-checkbox-2']
+2020-08-09 15:11:43.050 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //label[@for='hobbies-checkbox-1']
+2020-08-09 15:11:43.305 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value ABC in By.id: currentAddress
+2020-08-09 15:11:43.478 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value NCR in By.id: react-select-3-input
+2020-08-09 15:11:43.677 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Delhi in By.id: react-select-4-input
+2020-08-09 15:11:54.252 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //button[text()='Submit']
+2020-08-09 15:12:04.732 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //button[text()='Close']
+2020-08-09 15:12:06.077 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 15:12:12.434 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:12:14.565 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:12:18.225 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value ThamaraiSelvan in By.id: userName
+2020-08-09 15:12:18.401 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Maveric@123 in By.id: password
+2020-08-09 15:12:23.523 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //button[text()='Login']
+2020-08-09 15:12:35.632 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.id: see-book-Git Pocket Guide
+2020-08-09 15:12:40.725 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //button[text()='Add To Your Collection']
+2020-08-09 15:12:51.341 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //span[text()='Login']
+2020-08-09 15:12:58.476 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.linkText: profile
+2020-08-09 15:13:03.652 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //button[text()='Delete All Books']
+2020-08-09 15:13:08.764 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.id: closeSmallModal-ok
+2020-08-09 15:13:16.354 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.id: submit
+2020-08-09 15:13:17.849 [TestNG-tests-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 15:18:57.015 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:18:57.019 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:18:57.019 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 15:18:57.395 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_18_57_PM
+2020-08-09 15:18:57.691 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 15:19:03.809 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:19:06.190 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:19:12.831 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:18.935 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-09 15:19:24.315 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.333 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-09 15:19:24.355 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.372 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-09 15:19:24.374 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.390 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-09 15:19:24.393 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.408 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-09 15:19:24.410 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.426 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-09 15:19:24.429 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.445 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-09 15:19:24.448 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.464 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-09 15:19:24.466 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.482 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-09 15:19:24.508 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 198 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-09 15:19:24.510 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.537 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-09 15:19:24.539 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:19:24.556 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-09 15:19:30.962 [TestNG-test=ParaBank_DB-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-09 15:21:23.529 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:21:23.534 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:21:23.534 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 15:21:23.913 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_21_23_PM
+2020-08-09 15:21:24.215 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 15:21:30.922 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:21:33.345 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:22:17.160 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:22.566 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 15:22:27.917 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.025 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.firstName']
+2020-08-09 15:22:28.028 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.130 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.lastName']
+2020-08-09 15:22:28.147 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.248 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.street']
+2020-08-09 15:22:28.250 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.339 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.city']
+2020-08-09 15:22:28.342 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.441 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.state']
+2020-08-09 15:22:28.444 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.539 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-09 15:22:28.542 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.642 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-09 15:22:28.646 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.747 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.ssn']
+2020-08-09 15:22:28.859 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 309 in By.xpath: //*[@id='customer.username']
+2020-08-09 15:22:28.861 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:28.956 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.password']
+2020-08-09 15:22:28.959 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:22:29.051 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='repeatedPassword']
+2020-08-09 15:22:35.371 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-09 15:23:10.874 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:23:53.920 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_23_53_PM
+2020-08-09 15:23:55.150 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:23:55.150 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:23:55.151 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 15:23:55.438 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 15:24:01.575 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:24:03.957 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:24:08.167 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:14.282 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 15:24:19.698 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:19.799 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.firstName']
+2020-08-09 15:24:19.801 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:19.900 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.lastName']
+2020-08-09 15:24:19.903 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.004 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.street']
+2020-08-09 15:24:20.006 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.104 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.city']
+2020-08-09 15:24:20.106 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.203 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.state']
+2020-08-09 15:24:20.206 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.305 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-09 15:24:20.308 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.407 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-09 15:24:20.410 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.515 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.ssn']
+2020-08-09 15:24:20.624 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 155 in By.xpath: //*[@id='customer.username']
+2020-08-09 15:24:20.627 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.724 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='customer.password']
+2020-08-09 15:24:20.772 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 15:24:20.874 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value  in By.xpath: //*[@id='repeatedPassword']
+2020-08-09 15:24:26.643 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-09 15:27:42.068 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 15:27:42.073 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 15:27:42.073 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 15:27:42.482 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_03_27_42_PM
+2020-08-09 15:27:42.789 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 15:27:49.579 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 15:27:52.045 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 15:28:04.154 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-09 15:28:09.753 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']
+2020-08-09 15:28:09.892 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']
+2020-08-09 15:28:10.046 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1895 Zhezqazghan Drive in By.xpath: //*[@id='customer.address.street']
+2020-08-09 15:28:10.167 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Bhavnagar in By.xpath: //*[@id='customer.address.city']
+2020-08-09 15:28:10.276 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value India in By.xpath: //*[@id='customer.address.state']
+2020-08-09 15:28:10.393 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-09 15:28:10.523 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-09 15:28:10.657 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value LvM65EqZD9 in By.xpath: //*[@id='customer.ssn']
+2020-08-09 15:28:10.782 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN10282 in By.xpath: //*[@id='customer.username']
+2020-08-09 15:28:10.995 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='customer.password']
+2020-08-09 15:28:11.134 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='repeatedPassword']
+2020-08-09 15:28:17.318 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-09 15:28:23.442 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-09 15:28:24.033 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN10282 in By.xpath: //input[@name='username']
+2020-08-09 15:28:24.232 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //input[@name='password']
+2020-08-09 15:28:30.042 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-09 15:28:46.357 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01d5d32932df14d0d9bbdcac0a0634e9
+2020-08-09 15:28:46.372 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01d5d32932df14d0d9bbdcac0a0634e9
+2020-08-09 15:28:46.975 [TestNG-test=ParaBank_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-09 15:28:47.012 [TestNG-test=ParaBank_DB-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring

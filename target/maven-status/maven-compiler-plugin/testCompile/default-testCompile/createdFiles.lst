@@ -6,6 +6,7 @@ com\internetapp\tests\TestNG_EnableTimeout.class
 com\maveric\scuba\tests\parabank\ParaBank.class
 com\internetapp\pages\CITIAccountSummaryPage.class
 com\internetapp\tests\CucumberRunner.class
+com\maveric\scuba\tests\parabank\ParaBankWithDB.class
 com\internetapp\pages\CITILoginPage.class
 com\internetapp\tests\dataProviders\TestNG_DataProviders.class
 com\internetapp\tests\parallelExecution\ParallelClassesExample1.class
@@ -26,6 +27,7 @@ com\internetapp\tests\listeners\CustomListener.class
 com\iosapp\pages\LoginPage.class
 com\maveric\scuba\tests\parabank\ParaBank_TestNG.class
 com\internetapp\tests\annotations\SomeClassToTest.class
+com\CucumberRunner_DB.class
 com\api\CucumberRunner.class
 com\internetapp\tests\listeners\TestNG_Test.class
 com\maveric\scuba\tests\demoqa\Demoqa.class

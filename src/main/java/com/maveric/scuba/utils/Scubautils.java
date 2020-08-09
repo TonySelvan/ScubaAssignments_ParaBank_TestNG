@@ -30,7 +30,7 @@ public class Scubautils extends WebActions{
 	
 	public  WebElement loc;
 	public  WebElement ele;
-	WebDriverWait wait=null;
+	public WebDriverWait wait=null;
 	public  XSSFWorkbook workbook;
 	public  String ExcelPath = ".\\TestData\\parabank.xlsx";
 	public  String SheetName = "TestData";
@@ -62,11 +62,10 @@ public class Scubautils extends WebActions{
 	
 	public  void send(By loc, String value )
 	{
-		driver = Driver.getWebDriver();
 		try
 		{
 			WebElement ele = driver.findElement(loc);
-			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
+//			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
 			ele.clear();
 			ele.sendKeys(value);
 			logger.info("User Set the Value " + value + " in " + loc );
@@ -81,12 +80,11 @@ public class Scubautils extends WebActions{
 
 	public void Btnclick(By loc)
 	{
-		driver = Driver.getWebDriver();
 		try
 		{
 			Thread.sleep(5000);
 			WebElement ele = driver.findElement(loc);
-			wait.until(ExpectedConditions.elementToBeClickable(ele));
+//			wait.until(ExpectedConditions.elementToBeClickable(ele));
 			ele.click();
 			logger.info("User Clicked the " + loc );
 		}
