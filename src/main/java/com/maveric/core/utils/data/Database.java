@@ -26,6 +26,7 @@ public class Database {
                             hostname + ":" +
                             port + "/" + database
                             + "?useSSL=false&serverTimezone=UTC";
+                    System.out.println(connectionUrl);
                     break;
                 case "postgre":
                     this.connectionUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + database;

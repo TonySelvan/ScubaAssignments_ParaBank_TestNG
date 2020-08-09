@@ -30,7 +30,7 @@ public class Scubautils extends WebActions{
 	
 	public  WebElement loc;
 	public  WebElement ele;
-	WebDriverWait wait;
+	WebDriverWait wait=null;
 	public  XSSFWorkbook workbook;
 	public  String ExcelPath = ".\\TestData\\parabank.xlsx";
 	public  String SheetName = "TestData";
@@ -62,10 +62,11 @@ public class Scubautils extends WebActions{
 	
 	public  void send(By loc, String value )
 	{
+		driver = Driver.getWebDriver();
 		try
 		{
 			WebElement ele = driver.findElement(loc);
-			wait.until(ExpectedConditions.visibilityOf(ele));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
 			ele.clear();
 			ele.sendKeys(value);
 			logger.info("User Set the Value " + value + " in " + loc );
@@ -76,11 +77,11 @@ public class Scubautils extends WebActions{
 			System.out.println(exception);
 			logger.warn("User Couldn't Set the Value " + value.toUpperCase() + " in " + loc + "And the Exception Message is " + exception );
 		}
-//		logScreenshot("Value " + value + "is set in " + loc );
 	}
 
 	public void Btnclick(By loc)
 	{
+		driver = Driver.getWebDriver();
 		try
 		{
 			Thread.sleep(5000);
@@ -95,7 +96,7 @@ public class Scubautils extends WebActions{
 //            js.executeScript("arguments[0].click();",ele );
 			String exception = e.getMessage();
 			e.printStackTrace();
-//			WebElement element = driver.findElement(loc);
+			WebElement ele = driver.findElement(loc);
 			Actions actions = new Actions(driver);
 			actions.moveToElement(ele).click().perform();
 			logger.warn("User Couldn't click on " + loc + "And the Exception Message is " + exception );

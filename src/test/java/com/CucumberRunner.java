@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "./src/test/resources/features/",
-        tags = "@parabank",
+        tags = "@parabankwithDB",
         glue = "com.maveric.scuba.tests.parabank"
 )
 public class CucumberRunner extends CucumberBaseTest {

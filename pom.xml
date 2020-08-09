@@ -25,10 +25,10 @@
         <sauce.bindings.version>1.0-beta-5</sauce.bindings.version>
         <rest.assured.version>4.3.0</rest.assured.version>
         <!-- surefire properties-->
-        <suite>
-           web.xml
-        </suite>
-        <suiteFile>./src/test/resources/test_suites/${suite}</suiteFile>
+<!--         <suite> -->
+<!--            web.xml -->
+<!--         </suite> -->
+<!--         <suiteFile>./src/test/resources/test_suites/${suite}</suiteFile> -->
     </properties>
     <dependencies>
         <dependency>
@@ -130,6 +130,12 @@
             <artifactId>jsch</artifactId>
             <version>0.1.55</version>
         </dependency>
+        
+        <dependency>
+             <groupId>mysql</groupId>
+             <artifactId>mysql-connector-java</artifactId>
+             <version>8.0.20</version>
+         </dependency>
         <!--        <dependency>-->
         <!--            <groupId>com.oracle.jdbc</groupId>-->
         <!--            <artifactId>ojdbc8</artifactId>-->
@@ -169,8 +175,21 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.11.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
-        
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports-testng-adapter</artifactId>
+        <version>1.0.7</version>
+    </dependency>
+    <dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.30</version>
+    </dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.1.4</version>
+</dependency>
     </dependencies>
     <build>
         <plugins>
@@ -185,7 +204,7 @@
                 <version>${surefire.version}</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

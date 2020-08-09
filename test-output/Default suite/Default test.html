@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 07 19:52:29 GMT+05:30 2020</td>
+<td>Started on:</td><td>Sat Aug 08 17:06:25 GMT+05:30 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (58 ms)</td>
+<tr><td>Total time:</td><td>220 seconds (220069 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,49 +67,71 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.internetapp.tests.reports.TestNG_ReportsAndLogs.testMethod1()'><b>testMethod1</b><br>Test class: com.internetapp.tests.reports.TestNG_ReportsAndLogs<br/>
-<a href="#Output-21257599" onClick='toggleBox("Output-21257599", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-21257599" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-21257599">
-TestNG_ReportsAndLogs -> testMethod1<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31</td></tr>
-<tr>
-<td title='com.internetapp.tests.reports.TestNG_ReportsAndLogs.testMethod2()'><b>testMethod2</b><br>Test class: com.internetapp.tests.reports.TestNG_ReportsAndLogs<br/>
-<a href="#Output-1048027629" onClick='toggleBox("Output-1048027629", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1048027629" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1048027629">
-TestNG_ReportsAndLogs -> testMethod2<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31</td></tr>
-<tr>
-<td title='com.internetapp.tests.reports.TestNG_ReportsAndLogs.testMethod3()'><b>testMethod3</b><br>Test class: com.internetapp.tests.reports.TestNG_ReportsAndLogs<br/>
-<a href="#Output-1143371233" onClick='toggleBox("Output-1143371233", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1143371233" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1143371233">
-TestNG_ReportsAndLogs -> testMethod3<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.internetapp.tests.reports.TestNG_ReportsAndLogs@6950e31</td></tr>
+<td title='com.CucumberRunner.scenario()'><b>scenario</b><br>Test class: com.CucumberRunner<br>Parameters: "Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Log Out&apos;]&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAVBCP203&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
+*** Element info: {Using=xpath, value=//*[text()=&apos;Log Out&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:99)
+	at com.maveric.scuba.tests.parabank.ParaBankWithDB.User_Registration(ParaBankWithDB.java:67)
+	at ?.Register The User Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1127349328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1127349328'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Log Out&apos;]&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAVBCP203&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3c9a49b8a58b9c519456c262e8f2ff45
+*** Element info: {Using=xpath, value=//*[text()=&apos;Log Out&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:99)
+	at com.maveric.scuba.tests.parabank.ParaBankWithDB.User_Registration(ParaBankWithDB.java:67)
+	at ?.Register The User Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:9)
+</pre></div></td>
+<td>218</td>
+<td>com.CucumberRunner@69997e9d</td></tr>
 </table><p>
 </body>
 </html>

@@ -1226,3 +1226,389 @@ Session ID: ba60da73fa6ebfd80814a2801bc3ffd2
 2020-08-05 17:36:50.222 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
 2020-08-05 17:36:50.343 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
 2020-08-05 17:36:56.194 [TestNG-tests-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-08 09:42:11.493 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 09:44:39.328 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 09:49:07.745 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 09:55:05.433 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 10:09:11.961 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 10:09:50.758 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 12:18:45.360 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 12:26:11.454 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 14:54:30.446 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: The url cannot be null
+2020-08-08 15:18:08.052 [main] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: Column 'first_name' not found.
+2020-08-08 15:32:30.854 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:32:30.893 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:32:30.894 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:32:31.099 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_32_31_PM
+2020-08-08 15:32:37.599 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:32:50.577 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:32:54.279 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 15:32:54.374 [TestNG-test=Default test-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-08 15:34:15.512 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:34:15.516 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:34:15.516 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:34:15.601 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_34_15_PM
+2020-08-08 15:34:17.401 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:34:25.305 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:34:30.950 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 15:34:30.961 [TestNG-test=Default test-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-08 15:40:08.160 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:40:08.173 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:40:08.173 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:40:08.239 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_40_08_PM
+2020-08-08 15:40:10.103 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:40:18.635 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:40:22.649 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:40:34.879 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 15:40:34.892 [TestNG-test=Default test-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-08 15:44:06.041 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:44:06.045 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:44:06.045 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:44:06.130 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_44_06_PM
+2020-08-08 15:44:07.394 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:44:13.412 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:44:15.837 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:44:27.622 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 15:44:28.809 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 15:44:29.309 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 15:44:29.367 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 15:44:29.607 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 15:44:29.669 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 15:44:29.703 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 15:44:29.769 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 15:44:29.794 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 15:44:29.811 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10729 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 15:44:29.832 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 15:44:29.852 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 15:44:36.560 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 15:45:51.750 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:45:51.771 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:45:51.771 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:45:51.868 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_45_51_PM
+2020-08-08 15:45:53.901 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:46:01.781 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:46:04.395 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:46:18.098 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 15:46:18.734 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-08 15:46:18.897 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-08 15:46:19.092 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-08 15:46:19.248 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-08 15:46:19.400 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-08 15:46:19.542 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 15:46:19.751 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 15:46:19.905 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 15:46:20.055 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai939 in By.xpath: //*[@id='customer.username']
+2020-08-08 15:46:20.202 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-08 15:46:20.359 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 15:46:26.993 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-08 15:50:33.002 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:50:33.005 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:50:33.005 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:50:33.072 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_50_33_PM
+2020-08-08 15:50:34.395 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:50:41.677 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:50:44.327 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:50:54.689 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 15:51:00.119 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 15:51:00.142 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 15:51:00.162 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 15:51:00.183 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 15:51:00.201 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 15:51:00.230 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 15:51:00.250 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 15:51:00.271 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 15:51:00.286 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10497 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 15:51:00.305 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 15:51:00.326 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 15:51:06.212 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 15:52:28.538 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_52_28_PM
+2020-08-08 15:52:29.028 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:52:29.028 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:52:29.028 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:52:30.214 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:52:36.207 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:52:38.740 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:52:50.439 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 15:56:48.619 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 15:57:07.593 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 15:59:33.305 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_03_59_33_PM
+2020-08-08 15:59:33.866 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 15:59:33.866 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 15:59:33.866 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 15:59:35.030 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 15:59:41.231 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 15:59:43.669 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 15:59:55.408 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 16:04:27.529 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:04:27.532 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:04:27.532 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:04:27.580 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_04_27_PM
+2020-08-08 16:04:28.737 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:04:34.808 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:04:37.186 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:04:49.699 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:04:55.135 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 16:04:55.157 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 16:04:55.177 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 16:04:55.209 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 16:04:55.231 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 16:04:55.252 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 16:04:55.274 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 16:04:55.302 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 16:04:55.317 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10482 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 16:04:55.338 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 16:04:55.359 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 16:05:01.231 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:06:54.352 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:06:54.355 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:06:54.356 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:06:54.407 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_06_54_PM
+2020-08-08 16:06:55.513 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:07:02.224 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:07:04.607 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:07:14.757 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 16:07:15.353 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-08 16:07:15.486 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-08 16:07:15.653 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-08 16:07:15.810 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-08 16:07:15.946 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-08 16:07:16.080 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 16:07:16.222 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 16:07:16.368 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 16:07:16.518 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai944 in By.xpath: //*[@id='customer.username']
+2020-08-08 16:07:16.665 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-08 16:07:16.797 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 16:07:22.852 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-08 16:07:29.625 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-08 16:07:30.252 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai944 in By.xpath: //input[@name='username']
+2020-08-08 16:07:30.395 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //input[@name='password']
+2020-08-08 16:07:36.498 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Log In']
+2020-08-08 16:09:25.607 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:09:25.610 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:09:25.610 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:09:25.693 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_09_25_PM
+2020-08-08 16:09:26.848 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:09:33.010 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:09:35.405 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:09:49.648 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:09:55.055 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value THAMARAI in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 16:09:55.077 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 16:09:55.097 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 16:09:55.126 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 16:09:55.146 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 16:09:55.179 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 16:09:55.199 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 16:09:55.218 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 16:09:55.234 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10783 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 16:09:55.262 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 16:09:55.296 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 16:10:01.584 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:14:02.673 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:14:02.676 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:14:02.677 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:14:02.723 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_14_02_PM
+2020-08-08 16:14:03.885 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:14:10.183 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:14:12.583 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:14:38.384 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:14:43.929 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-08 16:14:44.059 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']
+2020-08-08 16:14:44.213 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1895 Zhezqazghan Drive in By.xpath: //*[@id='customer.address.street']
+2020-08-08 16:14:44.337 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Bhavnagar in By.xpath: //*[@id='customer.address.city']
+2020-08-08 16:14:44.514 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value India in By.xpath: //*[@id='customer.address.state']
+2020-08-08 16:14:44.642 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 16:14:44.765 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 16:14:44.897 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value LvM65EqZD9 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 16:14:45.029 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN1092 in By.xpath: //*[@id='customer.username']
+2020-08-08 16:14:45.165 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='customer.password']
+2020-08-08 16:14:45.307 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 16:14:51.341 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:14:57.771 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Log Out']And the Exception Message is null
+2020-08-08 16:14:58.370 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN1092 in By.xpath: //input[@name='username']
+2020-08-08 16:14:58.526 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //input[@name='password']
+2020-08-08 16:15:07.792 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Log In']And the Exception Message is null
+2020-08-08 16:17:15.737 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:17:15.740 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:17:15.740 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:17:15.824 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_17_15_PM
+2020-08-08 16:17:16.913 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:17:22.957 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:17:25.351 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:17:51.299 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:17:56.674 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value THAMARAI in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 16:17:56.697 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 16:17:56.767 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 16:17:56.805 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 16:17:56.865 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 16:17:56.888 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 16:17:56.908 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 16:17:56.929 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 16:17:56.946 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10404 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 16:17:57.023 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 16:17:57.048 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 16:18:07.509 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:51:02.545 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:51:02.548 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:51:02.548 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:51:02.607 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_51_02_PM
+2020-08-08 16:51:03.760 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:51:10.568 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:51:12.973 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:51:23.484 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:51:28.966 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 16:51:28.987 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 16:51:29.009 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 16:51:29.031 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 16:51:29.052 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 16:51:29.077 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 16:51:29.118 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 16:51:29.139 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 16:51:29.157 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10496 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 16:51:29.177 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 16:51:29.197 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 16:51:35.106 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:52:46.739 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:52:46.742 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:52:46.742 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:52:46.803 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_52_46_PM
+2020-08-08 16:52:48.008 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:52:54.803 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:52:57.222 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:53:11.901 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 16:53:12.859 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-08 16:53:13.025 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-08 16:53:13.199 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-08 16:53:13.357 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-08 16:53:13.513 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-08 16:53:13.654 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 16:53:13.831 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 16:53:13.980 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 16:53:14.129 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai76 in By.xpath: //*[@id='customer.username']
+2020-08-08 16:53:14.281 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-08 16:53:14.422 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 16:56:39.148 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 16:56:39.151 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 16:56:39.152 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 16:56:39.176 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_04_56_39_PM
+2020-08-08 16:56:40.365 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 16:56:47.427 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 16:56:49.884 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 16:57:01.548 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 16:57:06.959 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 16:57:06.979 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 16:57:07.010 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 16:57:07.030 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 16:57:07.050 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 16:57:07.076 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 16:57:07.098 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 16:57:07.117 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 16:57:07.136 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN101022 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 16:57:07.156 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 16:57:07.177 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 16:57:13.661 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 16:59:50.097 [TestNG-test=Default test-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98b2542961b89a1bff05ccec4ace73a9
+2020-08-08 16:59:51.294 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 16:59:51.330 [TestNG-test=Default test-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-08 17:00:01.827 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 17:00:01.830 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 17:00:01.830 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 17:00:01.884 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_05_00_01_PM
+2020-08-08 17:00:03.034 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 17:00:09.866 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 17:00:12.277 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 17:00:24.297 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 17:00:29.812 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']
+2020-08-08 17:00:29.949 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']
+2020-08-08 17:00:30.114 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1895 Zhezqazghan Drive in By.xpath: //*[@id='customer.address.street']
+2020-08-08 17:00:30.235 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Bhavnagar in By.xpath: //*[@id='customer.address.city']
+2020-08-08 17:00:30.360 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value India in By.xpath: //*[@id='customer.address.state']
+2020-08-08 17:00:32.493 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 17:00:32.647 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 17:00:32.792 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value LvM65EqZD9 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 17:00:32.923 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value KIRSTEN10824 in By.xpath: //*[@id='customer.username']
+2020-08-08 17:00:33.061 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='customer.password']
+2020-08-08 17:00:33.199 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SNGd1YYVgS in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 17:00:39.608 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-08 17:02:25.891 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 17:02:25.895 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 17:02:25.895 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 17:02:25.954 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_05_02_25_PM
+2020-08-08 17:02:32.003 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 17:02:32.005 [TestNG-test=Default test-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Starting the Test : Register_User
+2020-08-08 17:02:34.157 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 17:02:44.422 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Register']
+2020-08-08 17:02:45.000 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Thamarai in By.xpath: //*[@id='customer.firstName']
+2020-08-08 17:02:45.144 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Selvan in By.xpath: //*[@id='customer.lastName']
+2020-08-08 17:02:45.324 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Antony Nagar,Chennai in By.xpath: //*[@id='customer.address.street']
+2020-08-08 17:02:45.488 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Singara Chennai in By.xpath: //*[@id='customer.address.city']
+2020-08-08 17:02:45.636 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value Tamilnadu in By.xpath: //*[@id='customer.address.state']
+2020-08-08 17:02:45.778 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in By.xpath: //*[@id='customer.address.zipCode']
+2020-08-08 17:02:45.951 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in By.xpath: //*[@id='customer.phoneNumber']
+2020-08-08 17:02:46.121 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in By.xpath: //*[@id='customer.ssn']
+2020-08-08 17:02:46.289 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai489 in By.xpath: //*[@id='customer.username']
+2020-08-08 17:02:46.435 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='customer.password']
+2020-08-08 17:02:46.578 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value thamarai in By.xpath: //*[@id='repeatedPassword']
+2020-08-08 17:02:53.011 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //input[@value='Register']
+2020-08-08 17:02:59.107 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the By.xpath: //*[text()='Log Out']
+2020-08-08 17:02:59.538 [TestNG-test=Default test-1] INFO  com.maveric.scuba.tests.parabank.ParaBank_TestNG - Completing the Test : Register_User
+2020-08-08 17:03:00.837 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 17:06:24.826 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-08 17:06:24.829 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-08 17:06:24.829 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-08 17:06:24.887 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-08_Aug_2020_05_06_24_PM
+2020-08-08 17:06:26.075 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-08 17:06:32.037 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-08 17:06:34.477 [TestNG-test=Default test-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-08 17:06:46.842 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-08 17:06:52.262 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-08 17:06:52.330 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value PALTROW in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-08 17:06:52.350 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1895 ZHEZQAZGHAN DRIVE in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-08 17:06:52.371 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value BHAVNAGAR in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-08 17:06:52.392 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value INDIA in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-08 17:06:52.412 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 870893 in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-08 17:06:52.433 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 1892311313 in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-08 17:06:52.455 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value LVM65EQZD9 in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-08 17:06:52.469 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value KIRSTEN10162 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-08 17:06:52.507 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-08 17:06:52.528 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value SNGD1YYVGS in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-08 17:06:58.379 [TestNG-test=Default test-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null
+2020-08-08 17:10:05.732 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-08 17:10:05.752 [TestNG-test=Default test-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Register The User and Creating Account and Trasferring
+2020-08-09 10:59:07.771 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-09 10:59:07.816 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-09 10:59:07.816 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-09 10:59:07.835 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-09_Aug_2020_10_59_07_AM
+2020-08-09 10:59:08.969 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-09 10:59:21.376 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-09 10:59:23.849 [TestNG-test=TestNG Test1-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-09 10:59:30.049 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:38.199 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //*[text()='Register']And the Exception Message is null
+2020-08-09 10:59:43.615 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.637 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.firstName']And the Exception Message is null
+2020-08-09 10:59:43.640 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.657 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.lastName']And the Exception Message is null
+2020-08-09 10:59:43.659 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.678 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.street']And the Exception Message is null
+2020-08-09 10:59:43.680 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.695 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.city']And the Exception Message is null
+2020-08-09 10:59:43.697 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.713 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.state']And the Exception Message is null
+2020-08-09 10:59:43.716 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.732 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.address.zipCode']And the Exception Message is null
+2020-08-09 10:59:43.735 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.751 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.phoneNumber']And the Exception Message is null
+2020-08-09 10:59:43.754 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.770 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.ssn']And the Exception Message is null
+2020-08-09 10:59:43.787 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value 457 in By.xpath: //*[@id='customer.username']And the Exception Message is null
+2020-08-09 10:59:43.789 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.804 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='customer.password']And the Exception Message is null
+2020-08-09 10:59:43.806 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2020-08-09 10:59:43.821 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't Set the Value  in By.xpath: //*[@id='repeatedPassword']And the Exception Message is null
+2020-08-09 10:59:50.346 [TestNG-test=TestNG Test1-1] WARN  com.maveric.scuba.utils.Scubautils - User Couldn't click on By.xpath: //input[@value='Register']And the Exception Message is null

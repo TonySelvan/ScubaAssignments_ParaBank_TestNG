@@ -5,11 +5,5 @@
         <classes>
             <class name="com.maveric.scuba.tests.parabank.ParaBank_TestNG"/>
         </classes>
-    </test> <!-- TestNG Test0 -->
-    
-<!-- <test name="ParaBank_Cucumber">
-        <classes>
-            <class name="com.CucumberRunner"/>
-        </classes>
-    </test> -->
-</suite> <!-- TestNG Suite -->                               
+    </test>
+</suite>                           
