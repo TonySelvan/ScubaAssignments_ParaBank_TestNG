@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Scuba Assignments" duration-ms="64641" started-at="2020-08-09T15:27:42 GMT+05:30" finished-at="2020-08-09T15:28:47 GMT+05:30">
+  <suite name="Scuba Assignments" duration-ms="152419" started-at="2020-08-10T13:23:20 GMT+05:30" finished-at="2020-08-10T13:25:52 GMT+05:30">
     <groups>
     </groups>
-    <test name="ParaBank_DB" duration-ms="64641" started-at="2020-08-09T15:27:42 GMT+05:30" finished-at="2020-08-09T15:28:47 GMT+05:30">
-      <class name="com.CucumberRunner_DB">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner_DB@671a5887]" name="setUpClass" is-config="true" duration-ms="255" started-at="2020-08-09T15:27:42 GMT+05:30" finished-at="2020-08-09T15:27:42 GMT+05:30">
+    <test name="Parabank_Cucumber_DB" duration-ms="152419" started-at="2020-08-10T13:23:20 GMT+05:30" finished-at="2020-08-10T13:25:52 GMT+05:30">
+      <class name="com.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@36d585c]" name="setUpClass" is-config="true" duration-ms="244" started-at="2020-08-10T13:23:20 GMT+05:30" finished-at="2020-08-10T13:23:20 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner_DB@671a5887]" name="setTestName" is-config="true" duration-ms="3" started-at="2020-08-09T15:27:42 GMT+05:30" finished-at="2020-08-09T15:27:42 GMT+05:30">
+        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@36d585c]" name="setTestName" is-config="true" duration-ms="3" started-at="2020-08-10T13:23:20 GMT+05:30" finished-at="2020-08-10T13:23:20 GMT+05:30">
           <params>
             <param index="0">
               <value>
@@ -20,14 +20,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@29d2d081]]>
+                <![CDATA[[Ljava.lang.Object;@c41709a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestName -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner_DB@671a5887]" name="scenario" duration-ms="63589" started-at="2020-08-09T15:27:42 GMT+05:30" data-provider="scenarios" finished-at="2020-08-09T15:28:46 GMT+05:30">
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@36d585c]" name="scenario" duration-ms="150485" started-at="2020-08-10T13:23:20 GMT+05:30" data-provider="scenarios" finished-at="2020-08-10T13:25:51 GMT+05:30">
           <params>
             <param index="0">
               <value>
@@ -40,34 +40,67 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Accounts Overview']"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7260aa3c55a44900c374dfbe8b4d5d33
+*** Element info: {Using=xpath, value=//*[text()='Accounts Overview']}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.maveric.core.utils.web.WebActions.logScreenshot(WebActions.java:24)
-at com.maveric.scuba.tests.parabank.ParaBankWithDB.login(ParaBankWithDB.java:83)
-at ✽.The user should be able to login into Parabank Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:10)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Accounts Overview']"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP203', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7260aa3c55a44900c374dfbe8b4d5d33
+*** Element info: {Using=xpath, value=//*[text()='Accounts Overview']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:86)
+at com.maveric.scuba.tests.parabank.ParaBank.login(ParaBank.java:80)
+at ✽.The user should be able to login into Parabank(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBank.feature:10)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner_DB@671a5887]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-08-09T15:28:47 GMT+05:30" finished-at="2020-08-09T15:28:47 GMT+05:30">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@36d585c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-10T13:25:52 GMT+05:30" finished-at="2020-08-10T13:25:52 GMT+05:30">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register The User and Creating Account and Trasferring status=FAILURE method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner_DB@671a5887] output={null}]]]>
+                <![CDATA[[TestResult name=Register The User and Creating Account and Trasferring status=FAILURE method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@36d585c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner_DB@671a5887]" name="tearDownClass" is-config="true" duration-ms="122" started-at="2020-08-09T15:28:47 GMT+05:30" finished-at="2020-08-09T15:28:47 GMT+05:30">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@36d585c]" name="tearDownClass" is-config="true" duration-ms="82" started-at="2020-08-10T13:25:52 GMT+05:30" finished-at="2020-08-10T13:25:52 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.CucumberRunner_DB -->
-    </test> <!-- ParaBank_DB -->
+      </class> <!-- com.CucumberRunner -->
+    </test> <!-- Parabank_Cucumber_DB -->
   </suite> <!-- Scuba Assignments -->
 </testng-results>

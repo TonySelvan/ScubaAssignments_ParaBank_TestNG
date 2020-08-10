@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Scuba_Assignments">
-                    <span>D:\SCUBA\Projects\Scuba_ParaBank_TestNG\src\test\resources\test_suites\ParaBank_Cucumber_DB.xml</span>
+                    <span>D:\SCUBA\Projects\Scuba_ParaBank_TestNG\src\test\resources\test_suites\ParaBank_Cucumber.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Scuba_Assignments">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Scuba_Assignments" title="com.CucumberRunner_DB" hash-for-method="scenario(&quot;Register The User and Creating Account and Trasferring&quot;, &quot;Optional[Parabank Assignment_Thamarai]&quot;)">scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Scuba_Assignments" title="com.CucumberRunner" hash-for-method="scenario(&quot;Register The User and Creating Account and Trasferring&quot;, &quot;Optional[Parabank Assignment_Thamarai]&quot;)">scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Scuba_Assignments -->
@@ -120,7 +120,7 @@
           <div class="suite-Scuba_Assignments-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.CucumberRunner_DB</span>
+              <span class="class-name">com.CucumberRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,11 +129,29 @@
                   </a> <!-- scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]") -->
                   <span class="method-name">scenario</span>
                   <span class="parameters">("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.maveric.core.utils.web.WebActions.logScreenshot(WebActions.java:24)
-	at com.maveric.scuba.tests.parabank.ParaBankWithDB.login(ParaBankWithDB.java:83)
-	at ✽.The user should be able to login into Parabank Using DB(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBankWithDB.feature:10)
-
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Accounts Overview&apos;]&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAVBCP203&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7260aa3c55a44900c374dfbe8b4d5d33
+*** Element info: {Using=xpath, value=//*[text()=&apos;Accounts Overview&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.maveric.scuba.utils.Scubautils.Btnclick(Scubautils.java:86)
+	at com.maveric.scuba.tests.parabank.ParaBank.login(ParaBank.java:80)
+	at ✽.The user should be able to login into Parabank(file:///D:/SCUBA/Projects/Scuba_ParaBank_TestNG/./src/test/resources/features/ParaBank.feature:10)
+... Removed 4 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -142,18 +160,18 @@
         </div> <!-- panel Scuba_Assignments -->
         <div panel-name="test-xml-Scuba_Assignments" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\SCUBA\Projects\Scuba_ParaBank_TestNG\src\test\resources\test_suites\ParaBank_Cucumber_DB.xml</span>
+            <span class="header-content">D:\SCUBA\Projects\Scuba_ParaBank_TestNG\src\test\resources\test_suites\ParaBank_Cucumber.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Scuba Assignments&quot; parallel=&quot;methods&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;ParaBank_DB&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Parabank_Cucumber_DB&quot; parallel=&quot;methods&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.CucumberRunner_DB&quot;/&gt;
+      &lt;class name=&quot;com.CucumberRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ParaBank_DB --&gt;
+  &lt;/test&gt; &lt;!-- Parabank_Cucumber_DB --&gt;
 &lt;/suite&gt; &lt;!-- Scuba Assignments --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,7 +183,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ParaBank_DB (1 class)</span>
+                <span class="test-name">Parabank_Cucumber_DB (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,13 +212,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scenario')
-data.setCell(0, 2, 'com.CucumberRunner_DB')
-data.setCell(0, 3, 63589);
+data.setCell(0, 2, 'com.CucumberRunner')
+data.setCell(0, 3, 150485);
 window.suiteTableData['Scuba_Assignments']= { tableData: data, tableDiv: 'times-div-Scuba_Assignments'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Scuba_Assignments">
               </div> <!-- times-div-Scuba_Assignments -->
             </div> <!-- times-div -->
@@ -226,28 +244,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.CucumberRunner_DB</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.CucumberRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setTestName(public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io....)</span>
-                <span class="method-start">267 ms</span>
+                <span class="method-start">311 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">scenario("Register The User and Creating Account and Trasferring", "Optional[Parabank Assignment_Thamarai]")</span>
-                <span class="method-start">271 ms</span>
+                <span class="method-start">315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=Register The User and Creating Account and Trasferring status=FAILURE method=Cucumb...)</span>
-                <span class="method-start">64493 ms</span>
+                <span class="method-start">152323 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">64495 ms</span>
+                <span class="method-start">152324 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
