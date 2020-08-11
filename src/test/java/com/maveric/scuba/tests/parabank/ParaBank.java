@@ -80,10 +80,10 @@ public class ParaBank{
 			Utils.Btnclick(page.AccountsOverviewLink);
 			Utils.waitVisible(page.AccountTableRows);
 			Utils.waitVisible(page.getAccNumber(2));
-			String firstAccount = Utils.getText(page.getAccNumber(1));
+			firstAccount = Utils.getText(page.getAccNumber(1));
 			System.out.println("firstAccount1 - " + firstAccount);	
 //			screenshot
-			Utils.logScreenshot("Default account : " + firstAccount);		
+			Utils.logScreenshot("Default account : " + firstAccount);	
 		}
 		
 		//Account creation

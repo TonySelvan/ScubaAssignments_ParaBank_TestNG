@@ -35,10 +35,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/lombok-1.18.12.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/bson-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/jsoup-1.8.3.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/mongodb-driver-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/mongodb-driver-core-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/SCUBA/Extent Reporting/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

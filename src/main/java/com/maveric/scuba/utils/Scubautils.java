@@ -70,7 +70,7 @@ public class Scubautils extends WebActions{
 			wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
 			ele.clear();
 			ele.sendKeys(value);
-			logger.info("User Set the Value " + value.toUpperCase() + " in the Element " + loc );
+			logger.info("User Set the Value " + value.toUpperCase() + " in the Element " + loc);
 		}
 		catch (Exception e) {
 			String exception = e.getMessage();
@@ -141,7 +141,8 @@ public class Scubautils extends WebActions{
 	{
 		try
 		{
-			Select dropdown = new Select(driver.findElement(loc));
+			WebElement ele = driver.findElement(loc);
+			Select dropdown = new Select(ele);
 			dropdown.selectByValue(value);
 			}
 		catch (Exception e) {
@@ -167,9 +168,12 @@ public class Scubautils extends WebActions{
 	
 	public  void dropdownselecttxt(By loc, String value)
 	{
+		WebDriver driver = Driver.getWebDriver();
+		WebElement ele = driver.findElement(loc);
+//		WebDriverWait wait = new WebDriverWait(driver, 60);
 		try
 		{
-			Select dropdown = new Select(driver.findElement(loc));
+			Select dropdown = new Select(ele);
 			dropdown.selectByVisibleText(value);
 			}
 		catch (Exception e) {
