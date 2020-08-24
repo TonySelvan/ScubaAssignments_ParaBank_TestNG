@@ -41,7 +41,7 @@ public class Scubautils extends WebActions{
 	public void driverinitialize()
 	{
 		driver = Driver.getWebDriver();
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		wait = new WebDriverWait(driver, 60);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		logger.info("Driver Is Launched and Maximized");

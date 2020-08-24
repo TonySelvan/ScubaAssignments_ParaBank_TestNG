@@ -2644,3 +2644,27 @@ Session ID: 7170ebd6f0c3d8862809e4c85eca7a0d
 2020-08-10 18:37:21.221 [TestNG-test=ParaBank_Cucumber_DB-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the Element By.xpath: //*[text()='Log Out']
 2020-08-10 18:37:22.919 [TestNG-test=ParaBank_Cucumber_DB-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-08-10 18:37:22.921 [TestNG-test=ParaBank_Cucumber_DB-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Register The User and Creating Account and Trasferring
+2020-08-11 17:20:08.555 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-11 17:20:08.597 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-11 17:20:08.597 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-11 17:20:09.400 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-11_Aug_2020_05_20_09_PM
+2020-08-11 17:20:09.955 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Register The User and Creating Account and Trasferring
+2020-08-11 17:20:16.531 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-11 17:20:18.970 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - Driver Is Launched and Maximized
+2020-08-11 17:20:25.904 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the Element By.xpath: //*[text()='Register']
+2020-08-11 17:20:26.440 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI in the Element By.xpath: //*[@id='customer.firstName']
+2020-08-11 17:20:26.586 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SELVAN in the Element By.xpath: //*[@id='customer.lastName']
+2020-08-11 17:20:26.758 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value ANTONY NAGAR,CHENNAI in the Element By.xpath: //*[@id='customer.address.street']
+2020-08-11 17:20:26.916 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value SINGARA CHENNAI in the Element By.xpath: //*[@id='customer.address.city']
+2020-08-11 17:20:27.050 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value TAMILNADU in the Element By.xpath: //*[@id='customer.address.state']
+2020-08-11 17:20:27.173 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 600100 in the Element By.xpath: //*[@id='customer.address.zipCode']
+2020-08-11 17:20:27.330 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value 9962412123 in the Element By.xpath: //*[@id='customer.phoneNumber']
+2020-08-11 17:20:27.480 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value QAZWSX123 in the Element By.xpath: //*[@id='customer.ssn']
+2020-08-11 17:20:27.630 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI120 in the Element By.xpath: //*[@id='customer.username']
+2020-08-11 17:20:27.773 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI in the Element By.xpath: //*[@id='customer.password']
+2020-08-11 17:20:27.918 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI in the Element By.xpath: //*[@id='repeatedPassword']
+2020-08-11 17:20:29.394 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the Element By.xpath: //input[@value='Register']
+2020-08-11 17:20:30.453 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the Element By.xpath: //*[text()='Log Out']
+2020-08-11 17:20:31.035 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI120 in the Element By.xpath: //input[@name='username']
+2020-08-11 17:20:31.195 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Set the Value THAMARAI in the Element By.xpath: //input[@name='password']
+2020-08-11 17:20:31.959 [TestNG-test=Parabank_Cucumber-1] INFO  com.maveric.scuba.utils.Scubautils - User Clicked the Element By.xpath: //input[@value='Log In']
